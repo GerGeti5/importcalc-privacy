@@ -1,9 +1,9 @@
 {
-  "dataVersion": 3,
+  "dataVersion": 4,
   "updatedAt": "2026-05-07",
   "defaultToCountryCode": "GE",
   "currencyBase": "GEL",
-  "notes": "Shipping routes, prices, delivery days, branches and contact details should be verified from official company websites before final publication. Empty contact/branch fields mean data is not verified yet.",
+  "notes": "Company contact details, branches, routes and prices should be verified from official company websites before final publication. Empty contact/branch fields mean data is not verified yet.",
   "companies": [
     {
       "name": "USA2GEORGIA",
@@ -33,21 +33,21 @@
     },
     {
       "name": "Maleo",
-      "website": "https://maleo.ge",
-      "phone": "",
-      "email": "",
+      "website": "https://maleo.ge/?attr=tariffs&language=en&module=html",
+      "phone": "+995 32 224 09 09",
+      "email": "info@maleo.ge",
       "facebook": "",
       "verifiedStatus": "PARTIAL",
-      "note": "Contact details and branch addresses should be verified from the official website.",
-"branches": [
-  {
-    "title": "Main branch",
-    "city": "Tbilisi",
-    "address": "მისამართი დასაზუსტებელია ოფიციალური საიტიდან",
-    "phone": "",
-    "workingHours": "Check website"
-  }
-],
+      "note": "Contact page lists LLC Georgian Post, Station Square 2, Tbilisi, call center and email. Service centers should be verified from official service center list.",
+      "branches": [
+        {
+          "title": "Main office / Georgian Post",
+          "city": "Tbilisi",
+          "address": "2 Station Square, Tbilisi, 0100, Georgia",
+          "phone": "+995 32 224 09 09",
+          "workingHours": "Mon-Fri 09:30-18:30; Sat 10:00-14:00"
+        }
+      ],
       "routes": [
         {
           "fromCountryCode": "US",
@@ -61,7 +61,7 @@
           "supportsVolumetric": true,
           "customsIncluded": false,
           "note": "Price should be verified from official tariff page.",
-          "sourceUrl": "https://maleo.ge"
+          "sourceUrl": "https://maleo.ge/?attr=tariffs&language=en&module=html"
         },
         {
           "fromCountryCode": "CN",
@@ -75,7 +75,7 @@
           "supportsVolumetric": true,
           "customsIncluded": false,
           "note": "Price should be verified from official tariff page.",
-          "sourceUrl": "https://maleo.ge"
+          "sourceUrl": "https://maleo.ge/?attr=tariffs&language=en&module=html"
         },
         {
           "fromCountryCode": "TR",
@@ -89,19 +89,76 @@
           "supportsVolumetric": true,
           "customsIncluded": false,
           "note": "Price should be verified from official tariff page.",
-          "sourceUrl": "https://maleo.ge"
+          "sourceUrl": "https://maleo.ge/?attr=tariffs&language=en&module=html"
+        },
+        {
+          "fromCountryCode": "GB",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 7.5,
+          "currency": "GBP",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Route/service should be verified from official website.",
+          "sourceUrl": "https://maleo.ge/?attr=tariffs&language=en&module=html"
         }
       ]
     },
     {
       "name": "Inex Group",
       "website": "https://inex.ge",
-      "phone": "",
-      "email": "",
+      "phone": "+995 32 249 26 26",
+      "email": "info@inex.ge",
       "facebook": "",
       "verifiedStatus": "PARTIAL",
-      "note": "Inex may support multiple countries. Routes and prices should be verified from the official website.",
-      "branches": [],
+      "note": "Inex official offices page lists call center, email and multiple offices/agent offices. Only a subset of offices is included here; verify complete list from official offices page.",
+      "branches": [
+        {
+          "title": "Inex Group Terminal",
+          "city": "Tbilisi",
+          "address": "Ivane Iumashevi N23",
+          "phone": "032 249 26 26",
+          "workingHours": "Mon-Fri 10:00-18:00"
+        },
+        {
+          "title": "Hualing Plaza",
+          "city": "Tbilisi",
+          "address": "22 J. Lezhava St.",
+          "phone": "032 249 26 26",
+          "workingHours": "09:00-22:00"
+        },
+        {
+          "title": "Didi Digomi",
+          "city": "Tbilisi",
+          "address": "42 Mirian Mefe, Didi Digomi",
+          "phone": "032 249 26 26",
+          "workingHours": "09:00-22:30"
+        },
+        {
+          "title": "Vake-Saburtalo",
+          "city": "Tbilisi",
+          "address": "N10 M. Tamarashvili Ave.",
+          "phone": "032 249 26 26",
+          "workingHours": "09:00-22:30"
+        },
+        {
+          "title": "Chokhatauri",
+          "city": "Chokhatauri",
+          "address": "Rustaveli Street No. 4a",
+          "phone": "599 52 52 84",
+          "workingHours": "10:00-18:00; Friday closed"
+        },
+        {
+          "title": "Chkhorotsku",
+          "city": "Chkhorotsku",
+          "address": "Gobechia str. 4, grocery store near the traffic light",
+          "phone": "571 23 22 98",
+          "workingHours": "10:00-18:00; Sunday closed"
+        }
+      ],
       "routes": [
         {
           "fromCountryCode": "US",
@@ -243,13 +300,56 @@
     },
     {
       "name": "Camex",
-      "website": "https://camex.ge",
-      "phone": "",
-      "email": "",
+      "website": "https://camex.ge/?lang=en&module=contact",
+      "phone": "032 244 4888",
+      "email": "info@camex.ge",
       "facebook": "",
       "verifiedStatus": "PARTIAL",
-      "note": "Contact details and branch addresses should be verified from the official website.",
-      "branches": [],
+      "note": "Camex contact page lists multiple branches. Only visible branches from the current official contact page snapshot are included.",
+      "branches": [
+        {
+          "title": "Kazbegi branch",
+          "city": "Tbilisi",
+          "address": "#24 Kazbegi street",
+          "phone": "032 244 4888",
+          "workingHours": "Mon-Fri 10:00-21:00; Sat 11:00-16:00"
+        },
+        {
+          "title": "Chavchavadze branch",
+          "city": "Tbilisi",
+          "address": "#50b Chavchavadze Ave.",
+          "phone": "032 244 4888 Ext. #104",
+          "workingHours": "Mon-Fri 10:00-21:00; Sat 11:00-16:00"
+        },
+        {
+          "title": "Kakheti Lane branch",
+          "city": "Tbilisi",
+          "address": "Kakheti Lane #4",
+          "phone": "032 244 4888 Ext. #106",
+          "workingHours": "Mon-Fri 10:00-21:00; Sat 11:00-16:00"
+        },
+        {
+          "title": "Dighomi branch",
+          "city": "Tbilisi",
+          "address": "Dighomi Massive, Block VI, Building 20",
+          "phone": "032 244 4888 Ext. #201",
+          "workingHours": "Mon-Fri 10:00-21:00; Sat 11:00-16:00"
+        },
+        {
+          "title": "Gldani branch",
+          "city": "Tbilisi",
+          "address": "Gldani, Angia Bochorishvili 17",
+          "phone": "032 244 4888 Ext. #301",
+          "workingHours": "Mon-Fri 10:00-21:00; Sat 11:00-16:00"
+        },
+        {
+          "title": "Batumi branch",
+          "city": "Batumi",
+          "address": "#150 Farnavaz Mefe str.",
+          "phone": "032 244 4888 Ext. #401; 599 09 88 85",
+          "workingHours": "Mon-Fri 11:00-18:30; Sat 12:00-16:00"
+        }
+      ],
       "routes": [
         {
           "fromCountryCode": "US",
@@ -258,7 +358,7 @@
           "price": 8.5,
           "currency": "USD",
           "priceUnit": "perKg",
-          "deliveryDays": "Check website",
+          "deliveryDays": "5-8 days",
           "badge": "Reliable",
           "supportsVolumetric": true,
           "customsIncluded": false,
@@ -388,6 +488,20 @@
           "customsIncluded": false,
           "note": "Price should be verified from official tariff page.",
           "sourceUrl": "https://onex.ge"
+        },
+        {
+          "fromCountryCode": "GB",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 7.5,
+          "currency": "GBP",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://onex.ge"
         }
       ]
     },
@@ -488,7 +602,7 @@
           "price": 8.5,
           "currency": "USD",
           "priceUnit": "perKg",
-          "deliveryDays": "Check website",
+          "deliveryDays": "5-8 days",
           "badge": "Reliable",
           "supportsVolumetric": true,
           "customsIncluded": false,
