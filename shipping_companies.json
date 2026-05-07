@@ -39,7 +39,15 @@
       "facebook": "",
       "verifiedStatus": "PARTIAL",
       "note": "Contact details and branch addresses should be verified from the official website.",
-      "branches": [],
+"branches": [
+  {
+    "title": "Main branch",
+    "city": "Tbilisi",
+    "address": "მისამართი დასაზუსტებელია ოფიციალური საიტიდან",
+    "phone": "",
+    "workingHours": "Check website"
+  }
+],
       "routes": [
         {
           "fromCountryCode": "US",
