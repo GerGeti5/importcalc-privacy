@@ -1,1447 +1,1571 @@
 {
-    "dataVersion": 6,
-    "updatedAt": "2026-05-07",
-    "defaultToCountryCode": "GE",
-    "currencyBase": "GEL",
-    "notes": "Company contacts, branches, routes and prices are collected from official websites where available. PARTIAL/UNVERIFIED entries require re-checking before final publication. Empty contact/branch fields mean verified data was not found yet.",
-    "companies": [
+  "dataVersion": 7,
+  "updatedAt": "2026-05-08",
+  "defaultToCountryCode": "GE",
+  "currencyBase": "GEL",
+  "notes": "Company contacts, branches, routes and prices are collected from official websites where available. PARTIAL/UNVERIFIED entries require re-checking before final publication. Empty contact/branch fields mean verified data was not found yet.",
+  "companies": [
+    {
+      "name": "USA2GEORGIA",
+      "website": "https://www.usa2georgia.com",
+      "phone": "+995 32 242 18 18",
+      "email": "sales@usa2georgia.com",
+      "facebook": "",
+      "verifiedStatus": "PARTIAL",
+      "note": "Branch/contact data is collected from public business directories and should be re-verified from the official website.",
+      "branches": [
         {
-            "name": "USA2GEORGIA",
-            "website": "https://www.usa2georgia.com",
-            "phone": "+995 32 242 18 18",
-            "email": "sales@usa2georgia.com",
-            "facebook": "",
-            "verifiedStatus": "PARTIAL",
-            "note": "Branch/contact data is collected from public business directories and should be re-verified from the official website.",
-            "branches": [
-                {
-                    "title": "Mitskevich branch",
-                    "city": "Tbilisi",
-                    "address": "A. Mitskevich St. 27, Tbilisi",
-                    "phone": "+995 32 242 18 18; +995 32 219 20 80",
-                    "workingHours": "Check website"
-                },
-                {
-                    "title": "Kavtaradze branch",
-                    "city": "Tbilisi",
-                    "address": "P. Kavtaradze St. 27, Tbilisi",
-                    "phone": "+995 32 242 18 18; +995 32 219 20 80",
-                    "workingHours": "Check website"
-                },
-                {
-                    "title": "Parnavaz Mepe branch",
-                    "city": "Tbilisi",
-                    "address": "1 Parnavaz Mepe Ave, Tbilisi 0131",
-                    "phone": "+995 32 242 18 18",
-                    "workingHours": "10:00-18:30"
-                }
-            ],
-            "routes": [
-                {
-                    "fromCountryCode": "US",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 8.99,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price should be verified from official tariff page.",
-                    "sourceUrl": "https://www.usa2georgia.com"
-                }
-            ]
+          "title": "Mitskevich branch",
+          "city": "Tbilisi",
+          "address": "A. Mitskevich St. 27, Tbilisi",
+          "phone": "+995 32 242 18 18; +995 32 219 20 80",
+          "workingHours": "Check website"
         },
         {
-            "name": "Maleo",
-            "website": "https://maleo.ge/?attr=tariffs&language=en&module=html",
-            "phone": "+995 32 224 09 09",
-            "email": "info@maleo.ge",
-            "facebook": "",
-            "verifiedStatus": "PARTIAL",
-            "note": "Contact page lists LLC Georgian Post, Station Square 2, Tbilisi, call center and email. Service centers should be verified from the official service center list.",
-            "branches": [
-                {
-                    "title": "Main office / Georgian Post",
-                    "city": "Tbilisi",
-                    "address": "2 Station Square, Tbilisi, 0100, Georgia",
-                    "phone": "+995 32 224 09 09",
-                    "workingHours": "Mon-Fri 09:30-18:30; Sat 10:00-14:00"
-                }
-            ],
-            "routes": [
-                {
-                    "fromCountryCode": "US",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 8.5,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price should be verified from official tariff page.",
-                    "sourceUrl": "https://maleo.ge/?attr=tariffs&language=en&module=html"
-                },
-                {
-                    "fromCountryCode": "CN",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 7.0,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price should be verified from official tariff page.",
-                    "sourceUrl": "https://maleo.ge/?attr=tariffs&language=en&module=html"
-                },
-                {
-                    "fromCountryCode": "TR",
-                    "toCountryCode": "GE",
-                    "type": "Land",
-                    "price": 3.0,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price should be verified from official tariff page.",
-                    "sourceUrl": "https://maleo.ge/?attr=tariffs&language=en&module=html"
-                },
-                {
-                    "fromCountryCode": "GB",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 7.5,
-                    "currency": "GBP",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Route/service should be verified from official website.",
-                    "sourceUrl": "https://maleo.ge/?attr=tariffs&language=en&module=html"
-                }
-            ]
+          "title": "Kavtaradze branch",
+          "city": "Tbilisi",
+          "address": "P. Kavtaradze St. 27, Tbilisi",
+          "phone": "+995 32 242 18 18; +995 32 219 20 80",
+          "workingHours": "Check website"
         },
         {
-            "name": "Inex Group",
-            "website": "https://inex.ge",
-            "phone": "+995 32 249 26 26",
-            "email": "info@inex.ge",
-            "facebook": "",
-            "verifiedStatus": "PARTIAL",
-            "note": "Inex official offices page lists call center, email and multiple offices/agent offices. Only a subset of offices is included here; verify complete list from official offices page.",
-            "branches": [
-                {
-                    "title": "Inex Group Terminal",
-                    "city": "Tbilisi",
-                    "address": "Ivane Iumashevi N23",
-                    "phone": "032 249 26 26",
-                    "workingHours": "Mon-Fri 10:00-18:00"
-                },
-                {
-                    "title": "Hualing Plaza",
-                    "city": "Tbilisi",
-                    "address": "22 J. Lezhava St.",
-                    "phone": "032 249 26 26",
-                    "workingHours": "09:00-22:00"
-                },
-                {
-                    "title": "Didi Digomi",
-                    "city": "Tbilisi",
-                    "address": "42 Mirian Mefe, Didi Digomi",
-                    "phone": "032 249 26 26",
-                    "workingHours": "09:00-22:30"
-                },
-                {
-                    "title": "Vake-Saburtalo",
-                    "city": "Tbilisi",
-                    "address": "N10 M. Tamarashvili Ave.",
-                    "phone": "032 249 26 26",
-                    "workingHours": "09:00-22:30"
-                },
-                {
-                    "title": "Chokhatauri",
-                    "city": "Chokhatauri",
-                    "address": "Rustaveli Street No. 4a",
-                    "phone": "599 52 52 84",
-                    "workingHours": "10:00-18:00; Friday closed"
-                },
-                {
-                    "title": "Chkhorotsku",
-                    "city": "Chkhorotsku",
-                    "address": "Gobechia str. 4, grocery store near the traffic light",
-                    "phone": "571 23 22 98",
-                    "workingHours": "10:00-18:00; Sunday closed"
-                }
-            ],
-            "routes": [
-                {
-                    "fromCountryCode": "US",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 8.5,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Verify current tariff from official website.",
-                    "sourceUrl": "https://inex.ge"
-                },
-                {
-                    "fromCountryCode": "CN",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 7.0,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Verify current tariff from official website.",
-                    "sourceUrl": "https://inex.ge"
-                },
-                {
-                    "fromCountryCode": "TR",
-                    "toCountryCode": "GE",
-                    "type": "Land",
-                    "price": 3.0,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Verify current tariff from official website.",
-                    "sourceUrl": "https://inex.ge"
-                },
-                {
-                    "fromCountryCode": "DE",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 6.5,
-                    "currency": "EUR",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Verify current tariff from official website.",
-                    "sourceUrl": "https://inex.ge"
-                },
-                {
-                    "fromCountryCode": "GB",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 7.5,
-                    "currency": "GBP",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Verify current tariff from official website.",
-                    "sourceUrl": "https://inex.ge"
-                },
-                {
-                    "fromCountryCode": "AE",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 7.5,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Verify current tariff from official website.",
-                    "sourceUrl": "https://inex.ge"
-                }
-            ]
-        },
-        {
-            "name": "GeoGroup",
-            "website": "",
-            "phone": "",
-            "email": "",
-            "facebook": "",
-            "verifiedStatus": "UNVERIFIED",
-            "note": "Company website and contact details need verification. If this is actually GioGroup, use GioGroup entry.",
-            "branches": [],
-            "routes": [
-                {
-                    "fromCountryCode": "TR",
-                    "toCountryCode": "GE",
-                    "type": "Land",
-                    "price": null,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Partial",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Route needs verification.",
-                    "sourceUrl": ""
-                }
-            ]
-        },
-        {
-            "name": "Force Express",
-            "website": "https://forceexpress.ge",
-            "phone": "",
-            "email": "",
-            "facebook": "",
-            "verifiedStatus": "UNVERIFIED",
-            "note": "Reliable contact/branch information was not found in the current search. Website, routes and prices need verification.",
-            "branches": [],
-            "routes": [
-                {
-                    "fromCountryCode": "US",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": null,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Partial",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price and route need verification.",
-                    "sourceUrl": "https://forceexpress.ge"
-                }
-            ]
-        },
-        {
-            "name": "Camex",
-            "website": "https://camex.ge/?lang=en&module=contact",
-            "phone": "032 244 4888",
-            "email": "info@camex.ge",
-            "facebook": "",
-            "verifiedStatus": "PARTIAL",
-            "note": "Camex contact page lists multiple branches. Only visible branches from the current official contact page snapshot are included.",
-            "branches": [
-                {
-                    "title": "Kazbegi branch",
-                    "city": "Tbilisi",
-                    "address": "#24 Kazbegi street",
-                    "phone": "032 244 4888",
-                    "workingHours": "Mon-Fri 10:00-21:00; Sat 11:00-16:00"
-                },
-                {
-                    "title": "Chavchavadze branch",
-                    "city": "Tbilisi",
-                    "address": "#50b Chavchavadze Ave.",
-                    "phone": "032 244 4888 Ext. #104",
-                    "workingHours": "Mon-Fri 10:00-21:00; Sat 11:00-16:00"
-                },
-                {
-                    "title": "Kakheti Lane branch",
-                    "city": "Tbilisi",
-                    "address": "Kakheti Lane #4",
-                    "phone": "032 244 4888 Ext. #106",
-                    "workingHours": "Mon-Fri 10:00-21:00; Sat 11:00-16:00"
-                },
-                {
-                    "title": "Dighomi branch",
-                    "city": "Tbilisi",
-                    "address": "Dighomi Massive, Block VI, Building 20",
-                    "phone": "032 244 4888 Ext. #201",
-                    "workingHours": "Mon-Fri 10:00-21:00; Sat 11:00-16:00"
-                },
-                {
-                    "title": "Gldani branch",
-                    "city": "Tbilisi",
-                    "address": "Gldani, Angia Bochorishvili 17",
-                    "phone": "032 244 4888 Ext. #301",
-                    "workingHours": "Mon-Fri 10:00-21:00; Sat 11:00-16:00"
-                },
-                {
-                    "title": "Batumi branch",
-                    "city": "Batumi",
-                    "address": "#150 Farnavaz Mefe str.",
-                    "phone": "032 244 4888 Ext. #401; 599 09 88 85",
-                    "workingHours": "Mon-Fri 11:00-18:30; Sat 12:00-16:00"
-                }
-            ],
-            "routes": [
-                {
-                    "fromCountryCode": "US",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 8.5,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "5-8 days",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price should be verified from official tariff page.",
-                    "sourceUrl": "https://camex.ge"
-                },
-                {
-                    "fromCountryCode": "DE",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 6.5,
-                    "currency": "EUR",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price should be verified from official tariff page.",
-                    "sourceUrl": "https://camex.ge"
-                },
-                {
-                    "fromCountryCode": "TR",
-                    "toCountryCode": "GE",
-                    "type": "Land",
-                    "price": 3.0,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price should be verified from official tariff page.",
-                    "sourceUrl": "https://camex.ge"
-                },
-                {
-                    "fromCountryCode": "GR",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 6.0,
-                    "currency": "EUR",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price should be verified from official tariff page.",
-                    "sourceUrl": "https://camex.ge"
-                },
-                {
-                    "fromCountryCode": "CN",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 7.0,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price should be verified from official tariff page.",
-                    "sourceUrl": "https://camex.ge"
-                },
-                {
-                    "fromCountryCode": "GB",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 7.5,
-                    "currency": "GBP",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price should be verified from official tariff page.",
-                    "sourceUrl": "https://camex.ge"
-                }
-            ]
-        },
-        {
-            "name": "Onex",
-            "website": "https://www.onex.ge",
-            "phone": "+995 32 200 44 00",
-            "email": "contact@onex.ge",
-            "facebook": "https://www.facebook.com/www.onex.ge",
-            "verifiedStatus": "PARTIAL",
-            "note": "Main branch data is from public directory listings. Verify all branches from the official website before final publication.",
-            "branches": [
-                {
-                    "title": "Kazbegi branch",
-                    "city": "Tbilisi",
-                    "address": "19B Aleksandre Kazbegi Ave, Tbilisi",
-                    "phone": "+995 32 200 44 00",
-                    "workingHours": "Mon-Fri 09:00-21:00; Sat-Sun 10:00-18:00"
-                },
-                {
-                    "title": "Daraselia branch",
-                    "city": "Tbilisi",
-                    "address": "Daraselia St. 1, Tbilisi",
-                    "phone": "+995 32 247 11 75",
-                    "workingHours": "Check website"
-                }
-            ],
-            "routes": [
-                {
-                    "fromCountryCode": "US",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 8.5,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price should be verified from official tariff page.",
-                    "sourceUrl": "https://www.onex.ge"
-                },
-                {
-                    "fromCountryCode": "CN",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 7.0,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price should be verified from official tariff page.",
-                    "sourceUrl": "https://www.onex.ge"
-                },
-                {
-                    "fromCountryCode": "TR",
-                    "toCountryCode": "GE",
-                    "type": "Land",
-                    "price": 3.0,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price should be verified from official tariff page.",
-                    "sourceUrl": "https://www.onex.ge"
-                },
-                {
-                    "fromCountryCode": "GB",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 7.5,
-                    "currency": "GBP",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price should be verified from official tariff page.",
-                    "sourceUrl": "https://www.onex.ge"
-                }
-            ]
-        },
-        {
-            "name": "Amanati.ge",
-            "website": "https://amanati.ge",
-            "phone": "+995 32 242 47 37",
-            "email": "info@amanati.ge",
-            "facebook": "",
-            "verifiedStatus": "VERIFIED",
-            "note": "Official contact page lists branches, phone, emails and working hours. Customs-related email: contact@amanati.ge.",
-            "branches": [
-                {
-                    "title": "Bochorma branch",
-                    "city": "Tbilisi",
-                    "address": "Bochorma St. 8, 300 Aragveli",
-                    "phone": "+995 32 242 47 37",
-                    "workingHours": "Mon-Fri 09:00-21:00; Sat 10:00-17:00; Sun closed"
-                },
-                {
-                    "title": "Gldani Plaza branch",
-                    "city": "Tbilisi",
-                    "address": "I. Vekua St. 14, Gldani Plaza",
-                    "phone": "+995 32 242 47 37",
-                    "workingHours": "Mon-Fri 09:00-21:00; Sat 10:00-17:00; Sun closed"
-                },
-                {
-                    "title": "Dighomi branch",
-                    "city": "Tbilisi",
-                    "address": "A. Beliashvili St. 117, Dighomi",
-                    "phone": "+995 32 242 47 37",
-                    "workingHours": "Mon-Fri 09:00-21:00; Sat 10:00-17:00; Sun closed"
-                },
-                {
-                    "title": "Varketili branch",
-                    "city": "Tbilisi",
-                    "address": "M. Gakhokidze St. 167, Varketili",
-                    "phone": "+995 32 242 47 37",
-                    "workingHours": "Mon-Fri 09:00-21:00; Sat 10:00-17:00; Sun closed"
-                },
-                {
-                    "title": "Saburtalo + Drive branch",
-                    "city": "Tbilisi",
-                    "address": "Vazha-Pshavela Ave. 35b, Saburtalo",
-                    "phone": "+995 32 242 47 37",
-                    "workingHours": "Mon-Fri 09:00-21:00; Sat 10:00-17:00; Sun closed"
-                }
-            ],
-            "routes": [
-                {
-                    "fromCountryCode": "US",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 8.5,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price should be verified from official tariff page.",
-                    "sourceUrl": "https://amanati.ge"
-                },
-                {
-                    "fromCountryCode": "CN",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 7.0,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price should be verified from official tariff page.",
-                    "sourceUrl": "https://amanati.ge"
-                },
-                {
-                    "fromCountryCode": "GR",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 6.0,
-                    "currency": "EUR",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price should be verified from official tariff page.",
-                    "sourceUrl": "https://amanati.ge"
-                }
-            ]
-        },
-        {
-            "name": "Amanatebi.ge",
-            "website": "https://amanatebi.ge",
-            "phone": "",
-            "email": "",
-            "facebook": "",
-            "verifiedStatus": "UNVERIFIED",
-            "note": "Reliable contact/branch information was not found in the current search. Website, routes and prices need verification.",
-            "branches": [],
-            "routes": [
-                {
-                    "fromCountryCode": "TR",
-                    "toCountryCode": "GE",
-                    "type": "Land",
-                    "price": null,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Partial",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Route needs verification.",
-                    "sourceUrl": "https://amanatebi.ge"
-                }
-            ]
-        },
-        {
-            "name": "Getit.ge",
-            "website": "https://getit.ge",
-            "phone": "+995 32 225 13 51",
-            "email": "info@getit.ge",
-            "facebook": "",
-            "verifiedStatus": "PARTIAL",
-            "note": "Official website lists USA, UAE, UK, China and Turkey service addresses. Gori branch working hours are listed, but branch address should be verified.",
-            "branches": [
-                {
-                    "title": "Head Office",
-                    "city": "Tbilisi",
-                    "address": "#23 Nutsubidze str",
-                    "phone": "+995 32 225 13 51",
-                    "workingHours": "Mon-Fri 11:00-19:00; Sat 11:00-14:00; Sun closed"
-                }
-            ],
-            "routes": [
-                {
-                    "fromCountryCode": "US",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 8.5,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "5-8 days",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price should be verified from official tariff page.",
-                    "sourceUrl": "https://getit.ge"
-                },
-                {
-                    "fromCountryCode": "GB",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 7.5,
-                    "currency": "GBP",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price should be verified from official tariff page.",
-                    "sourceUrl": "https://getit.ge"
-                },
-                {
-                    "fromCountryCode": "TR",
-                    "toCountryCode": "GE",
-                    "type": "Land",
-                    "price": 3.0,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price should be verified from official tariff page.",
-                    "sourceUrl": "https://getit.ge"
-                },
-                {
-                    "fromCountryCode": "AE",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 7.5,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price should be verified from official tariff page.",
-                    "sourceUrl": "https://getit.ge"
-                },
-                {
-                    "fromCountryCode": "CN",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 7.0,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price should be verified from official tariff page.",
-                    "sourceUrl": "https://getit.ge"
-                }
-            ]
-        },
-        {
-            "name": "KiwiPost",
-            "website": "https://kiwipost.ge",
-            "phone": "+995 32 205 23 24",
-            "email": "",
-            "facebook": "",
-            "verifiedStatus": "PARTIAL",
-            "note": "Official website lists more than 100 pickup/service locations, but exact branch addresses are not included in the current source snapshot. Keep branches empty until verified.",
-            "branches": [],
-            "routes": [
-                {
-                    "fromCountryCode": "US",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 10.0,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "4-7 days",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Official public page lists USA rate and period.",
-                    "sourceUrl": "https://kiwipost.ge"
-                },
-                {
-                    "fromCountryCode": "GB",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 8.0,
-                    "currency": "GBP",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "4-7 days",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Official public page lists England rate and period.",
-                    "sourceUrl": "https://kiwipost.ge"
-                },
-                {
-                    "fromCountryCode": "TR",
-                    "toCountryCode": "GE",
-                    "type": "Land",
-                    "price": 4.0,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "4-6 days",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Official public page lists Turkey rate and period.",
-                    "sourceUrl": "https://kiwipost.ge"
-                },
-                {
-                    "fromCountryCode": "CN",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 14.0,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "7-10 days",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Official public page lists China rate and period.",
-                    "sourceUrl": "https://kiwipost.ge"
-                },
-                {
-                    "fromCountryCode": "GR",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 4.0,
-                    "currency": "EUR",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "5-7 days",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Official public page lists Greece rate and period.",
-                    "sourceUrl": "https://kiwipost.ge"
-                },
-                {
-                    "fromCountryCode": "PL",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 6.0,
-                    "currency": "EUR",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "6-7 days",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Official public page lists Poland rate and period.",
-                    "sourceUrl": "https://kiwipost.ge"
-                },
-                {
-                    "fromCountryCode": "ES",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 8.0,
-                    "currency": "EUR",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "4-7 days",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Official public page lists Spain rate and period.",
-                    "sourceUrl": "https://kiwipost.ge"
-                }
-            ]
-        },
-        {
-            "name": "Barami",
-            "website": "https://www.barami.us",
-            "phone": "2 00 22 33",
-            "email": "",
-            "facebook": "",
-            "verifiedStatus": "VERIFIED",
-            "note": "Official Barami locations page lists multiple Georgia service points. Only selected Georgia locations are included here.",
-            "branches": [
-                {
-                    "title": "Store Tbilisi - Saburtalo",
-                    "city": "Tbilisi",
-                    "address": "16 Kandelaki St.",
-                    "phone": "599 444 340",
-                    "workingHours": "Tue-Sun 10:00-18:00; Mon closed"
-                },
-                {
-                    "title": "Store Tbilisi - Tsinamdzghvrishvili",
-                    "city": "Tbilisi",
-                    "address": "158 Tsinamdzgvrishvili St.",
-                    "phone": "032 2 00 22 33",
-                    "workingHours": "24h"
-                },
-                {
-                    "title": "Store Tbilisi Varketili",
-                    "city": "Tbilisi",
-                    "address": "3 MKR-4, BLD-413",
-                    "phone": "555 441 188",
-                    "workingHours": "Mon-Fri 11:00-20:00; Sat-Sun closed"
-                },
-                {
-                    "title": "WHS Phonitchala",
-                    "city": "Tbilisi",
-                    "address": "5 Tsotne Dadiani I Turn.",
-                    "phone": "032 2 00 22 33",
-                    "workingHours": "Mon-Fri 10:00-18:00; Sat-Sun closed"
-                },
-                {
-                    "title": "Store Akhmeta",
-                    "city": "Akhmeta",
-                    "address": "36-a Vazha Phshavela St.",
-                    "phone": "597 071 917",
-                    "workingHours": "Mon-Sun 10:00-18:00"
-                },
-                {
-                    "title": "Store Telavi",
-                    "city": "Telavi",
-                    "address": "2 Giorgi Saakadze Square",
-                    "phone": "+995 598 24 51 24",
-                    "workingHours": "Mon-Fri 10:00-18:00; Sat-Sun closed"
-                },
-                {
-                    "title": "Store Zugdidi",
-                    "city": "Zugdidi",
-                    "address": "Vakhtang VI - N25",
-                    "phone": "+995 593 577 893",
-                    "workingHours": "Mon-Sun 10:00-18:00"
-                },
-                {
-                    "title": "WHS Poti",
-                    "city": "Poti",
-                    "address": "3 Larnaka St.",
-                    "phone": "+995 595 657 001",
-                    "workingHours": "Mon-Fri 10:00-18:00; Sat-Sun closed"
-                }
-            ],
-            "routes": [
-                {
-                    "fromCountryCode": "US",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 8.5,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price should be verified from official tariff page.",
-                    "sourceUrl": "https://www.barami.us"
-                }
-            ]
-        },
-        {
-            "name": "SpaceCargo",
-            "website": "https://www.spacecargo.ge",
-            "phone": "+995 32 212 09 90",
-            "email": "customerservice@spacecargo.ge",
-            "facebook": "",
-            "verifiedStatus": "PARTIAL",
-            "note": "Official/old contact page lists Tbilisi, Kutaisi and Batumi locations. Route prices should be verified from the official calculator/tariff page.",
-            "branches": [
-                {
-                    "title": "Tbilisi branch",
-                    "city": "Tbilisi",
-                    "address": "Al. Kazbegi Ave. N30a / corner of K. Kutateladze street",
-                    "phone": "+995 32 212 09 90",
-                    "workingHours": "Mon-Fri 10:00-21:00; Sat 11:00-17:00"
-                },
-                {
-                    "title": "Kutaisi branch",
-                    "city": "Kutaisi",
-                    "address": "Tsereteli St. 124",
-                    "phone": "+995 32 212 09 90",
-                    "workingHours": "Check website"
-                },
-                {
-                    "title": "Batumi branch",
-                    "city": "Batumi",
-                    "address": "Zubalashvili 20",
-                    "phone": "+995 32 212 09 90",
-                    "workingHours": "Check website"
-                }
-            ],
-            "routes": [
-                {
-                    "fromCountryCode": "US",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 8.85,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Public sources list USA service; verify official tariff.",
-                    "sourceUrl": "https://www.spacecargo.ge"
-                },
-                {
-                    "fromCountryCode": "CN",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 12.85,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Public sources list China service; verify official tariff.",
-                    "sourceUrl": "https://www.spacecargo.ge"
-                },
-                {
-                    "fromCountryCode": "AE",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 7.0,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Public sources list Dubai/UAE service; verify official tariff.",
-                    "sourceUrl": "https://www.spacecargo.ge"
-                },
-                {
-                    "fromCountryCode": "GB",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 9.0,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Public sources list UK service; verify official tariff.",
-                    "sourceUrl": "https://www.spacecargo.ge"
-                },
-                {
-                    "fromCountryCode": "TR",
-                    "toCountryCode": "GE",
-                    "type": "Land",
-                    "price": 1.5,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Public sources list Turkey service; verify official tariff.",
-                    "sourceUrl": "https://www.spacecargo.ge"
-                },
-                {
-                    "fromCountryCode": "GR",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 3.5,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Public sources list Greece service; verify official tariff.",
-                    "sourceUrl": "https://www.spacecargo.ge"
-                },
-                {
-                    "fromCountryCode": "HK",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 9.0,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Partial",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "SpaceCargo public pages mention Hong Kong; verify official tariff.",
-                    "sourceUrl": "https://www.spacecargo.ge"
-                }
-            ]
-        },
-        {
-            "name": "Bestex",
-            "website": "https://www.bestex.ge",
-            "phone": "+995 321 921 29; +995 595 168 080",
-            "email": "bestex.ge@gmail.com",
-            "facebook": "",
-            "verifiedStatus": "PARTIAL",
-            "note": "Contact and branch data is from public directory listing. Official website should be checked before final publication.",
-            "branches": [
-                {
-                    "title": "Vazha-Pshavela branch",
-                    "city": "Tbilisi",
-                    "address": "Vazha-Pshavela Ave. 71b, Tbilisi",
-                    "phone": "+995 321 921 29; +995 595 168 080",
-                    "workingHours": "Mon-Fri 11:00-19:00; Sat 11:00-15:00"
-                }
-            ],
-            "routes": [
-                {
-                    "fromCountryCode": "US",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": null,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Partial",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Bestex is listed as package forwarding from USA; price needs verification.",
-                    "sourceUrl": "https://www.bestex.ge"
-                }
-            ]
-        },
-        {
-            "name": "GioGroup",
-            "website": "https://giogroup.ge",
-            "phone": "032 202 22 28",
-            "email": "giogroupservice1@gmail.com",
-            "facebook": "",
-            "verifiedStatus": "VERIFIED",
-            "note": "Official contact page lists four branches, email and phone.",
-            "branches": [
-                {
-                    "title": "Varketili branch",
-                    "city": "Tbilisi",
-                    "address": "Viktor Kupradze St. 72, Varketili",
-                    "phone": "032 202 22 28",
-                    "workingHours": "Check website"
-                },
-                {
-                    "title": "Gldani branch",
-                    "city": "Tbilisi",
-                    "address": "Angia Bochorishvili St. 33a, Gldani",
-                    "phone": "032 202 22 28",
-                    "workingHours": "Check website"
-                },
-                {
-                    "title": "Kutaisi branch",
-                    "city": "Kutaisi",
-                    "address": "K. Gamsakhurdia N2, near clinic entrance",
-                    "phone": "032 202 22 28",
-                    "workingHours": "Check website"
-                },
-                {
-                    "title": "Batumi branch",
-                    "city": "Batumi",
-                    "address": "Stepane Zubalashvili St. 20",
-                    "phone": "032 202 22 28",
-                    "workingHours": "Check website"
-                }
-            ],
-            "routes": [
-                {
-                    "fromCountryCode": "TR",
-                    "toCountryCode": "GE",
-                    "type": "Land",
-                    "price": 1.5,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Cheapest",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price should be verified from official tariff page.",
-                    "sourceUrl": "https://giogroup.ge"
-                },
-                {
-                    "fromCountryCode": "GR",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 6.0,
-                    "currency": "EUR",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Price should be verified from official tariff page.",
-                    "sourceUrl": "https://giogroup.ge"
-                },
-                {
-                    "fromCountryCode": "CN",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 6.8,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Official page mentions commercial cargo from Turkey and China; exact parcel tariff should be verified.",
-                    "sourceUrl": "https://giogroup.ge"
-                },
-                {
-                    "fromCountryCode": "US",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 8.99,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Partial",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "USA route should be verified from official/current source.",
-                    "sourceUrl": "https://giogroup.ge"
-                }
-            ]
-        },
-        {
-            "name": "TGL",
-            "website": "https://tgl.ge",
-            "phone": "",
-            "email": "",
-            "facebook": "",
-            "verifiedStatus": "UNVERIFIED",
-            "note": "Trans Georgian Logistics. Reliable contact/branch information was not found in the current search. Website, routes and prices need verification.",
-            "branches": [],
-            "routes": [
-                {
-                    "fromCountryCode": "US",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": null,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Partial",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Route needs verification.",
-                    "sourceUrl": "https://tgl.ge"
-                }
-            ]
-        },
-        {
-            "name": "Gepost",
-            "website": "https://www.gpost.ge",
-            "phone": "+995 32 224 09 09",
-            "email": "info@gpost.ge",
-            "facebook": "https://www.facebook.com/gpost.ge",
-            "verifiedStatus": "VERIFIED",
-            "note": "Georgian Post official contact page lists central address, call center, email and hours. Selected Tbilisi service centers are included from public directory/official references.",
-            "branches": [
-                {
-                    "title": "Head office",
-                    "city": "Tbilisi",
-                    "address": "2 Station Square, Tbilisi 0100, Georgia",
-                    "phone": "+995 32 224 09 09",
-                    "workingHours": "Mon-Fri 09:30-18:30; Sat 10:00-14:00"
-                },
-                {
-                    "title": "Tbilisi Service Center #0102",
-                    "city": "Tbilisi",
-                    "address": "2 Station Square, Tbilisi",
-                    "phone": "224 09 09",
-                    "workingHours": "Mon-Fri 09:00-19:00; Sat 10:00-16:00"
-                },
-                {
-                    "title": "Tbilisi Service Center #0119",
-                    "city": "Tbilisi",
-                    "address": "10a Kedia St., Didube",
-                    "phone": "224 09 09",
-                    "workingHours": "Mon-Fri 09:00-19:00; Sat 10:00-16:00"
-                },
-                {
-                    "title": "Tbilisi Service Center #0114",
-                    "city": "Tbilisi",
-                    "address": "4 Gorgasali St., Ortachala",
-                    "phone": "224 09 09",
-                    "workingHours": "Mon-Fri 09:00-19:00; Sat 10:00-16:00"
-                },
-                {
-                    "title": "Tbilisi Service Center #0186",
-                    "city": "Tbilisi",
-                    "address": "71 Vazha-Pshavela Ave., Saburtalo",
-                    "phone": "224 09 09",
-                    "workingHours": "Mon-Fri 09:00-19:00; Sat 10:00-16:00"
-                },
-                {
-                    "title": "Tbilisi Service Center #0179",
-                    "city": "Tbilisi",
-                    "address": "21 Chavchavadze Ave., Vake",
-                    "phone": "224 09 09",
-                    "workingHours": "Mon-Fri 09:00-19:00; Sat 10:00-16:00"
-                }
-            ],
-            "routes": [
-                {
-                    "fromCountryCode": "US",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": null,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Partial",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Georgian Post is postal/courier service, not a standard shopping forwarder. Use official calculator for pricing.",
-                    "sourceUrl": "https://www.gpost.ge"
-                }
-            ]
-        },
-        {
-            "name": "Wejet.ge",
-            "website": "https://wejet.ge",
-            "phone": "032 280 04 44",
-            "email": "info@wejet.ge",
-            "facebook": "https://www.facebook.com/wejet.ge",
-            "verifiedStatus": "VERIFIED",
-            "note": "Official site lists China, Turkey, India, USA calculator and about page lists China, Turkey, Greece, India and USA services. Branches are listed for Tbilisi and Batumi.",
-            "branches": [
-                {
-                    "title": "Saburtalo branch",
-                    "city": "Tbilisi",
-                    "address": "Shalva Nutsubidze St. 111",
-                    "phone": "032 280 04 44",
-                    "workingHours": "Mon-Fri 10:00-20:00; Sat 10:00-15:00"
-                },
-                {
-                    "title": "Gldani branch",
-                    "city": "Tbilisi",
-                    "address": "M. Nozadze St. 38",
-                    "phone": "032 280 04 44",
-                    "workingHours": "Mon-Fri 10:00-20:00; Sat 10:00-15:00"
-                },
-                {
-                    "title": "Batumi branch",
-                    "city": "Batumi",
-                    "address": "G. Brtskinvale St. 126",
-                    "phone": "032 280 04 44",
-                    "workingHours": "Mon-Fri 11:00-19:00; Sat 11:00-15:00"
-                }
-            ],
-            "routes": [
-                {
-                    "fromCountryCode": "CN",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 7.0,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Official site has China calculator; exact current tariff should be verified.",
-                    "sourceUrl": "https://wejet.ge"
-                },
-                {
-                    "fromCountryCode": "TR",
-                    "toCountryCode": "GE",
-                    "type": "Land",
-                    "price": 3.0,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Official site has Turkey calculator; exact current tariff should be verified.",
-                    "sourceUrl": "https://wejet.ge"
-                },
-                {
-                    "fromCountryCode": "IN",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 7.5,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Official site has India calculator; exact current tariff should be verified.",
-                    "sourceUrl": "https://wejet.ge"
-                },
-                {
-                    "fromCountryCode": "US",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 8.5,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Official site has USA calculator; exact current tariff should be verified.",
-                    "sourceUrl": "https://wejet.ge"
-                },
-                {
-                    "fromCountryCode": "GR",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": 6.0,
-                    "currency": "EUR",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Reliable",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "About page mentions Greece service; exact tariff should be verified.",
-                    "sourceUrl": "https://wejet.ge/about"
-                }
-            ]
-        },
-        {
-            "name": "Global Post",
-            "website": "https://globalpost.ge",
-            "phone": "+995 32 239 04 14",
-            "email": "",
-            "facebook": "",
-            "verifiedStatus": "PARTIAL",
-            "note": "Official website is reachable and lists tariff sections, but reliable branch/contact details are limited in current search. Phone is from a public logistics directory and should be verified.",
-            "branches": [],
-            "routes": [
-                {
-                    "fromCountryCode": "US",
-                    "toCountryCode": "GE",
-                    "type": "Air",
-                    "price": null,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Partial",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Route and price need verification from official tariff pages.",
-                    "sourceUrl": "https://globalpost.ge"
-                },
-                {
-                    "fromCountryCode": "CN",
-                    "toCountryCode": "GE",
-                    "type": "Land",
-                    "price": null,
-                    "currency": "USD",
-                    "priceUnit": "perKg",
-                    "deliveryDays": "Check website",
-                    "badge": "Partial",
-                    "supportsVolumetric": true,
-                    "customsIncluded": false,
-                    "note": "Official site has China/land tariff section; exact price needs verification.",
-                    "sourceUrl": "https://globalpost.ge"
-                }
-            ]
+          "title": "Parnavaz Mepe branch",
+          "city": "Tbilisi",
+          "address": "1 Parnavaz Mepe Ave, Tbilisi 0131",
+          "phone": "+995 32 242 18 18",
+          "workingHours": "10:00-18:30"
         }
-    ]
+      ],
+      "routes": [
+        {
+          "fromCountryCode": "US",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 8.99,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://www.usa2georgia.com"
+        }
+      ]
+    },
+    {
+      "name": "Maleo",
+      "website": "https://maleo.ge/?attr=tariffs&language=en&module=html",
+      "phone": "+995 32 224 09 09",
+      "email": "info@maleo.ge",
+      "facebook": "",
+      "verifiedStatus": "PARTIAL",
+      "note": "Contact page lists LLC Georgian Post, Station Square 2, Tbilisi, call center and email. Service centers should be verified from the official service center list.",
+      "branches": [
+        {
+          "title": "Main office / Georgian Post",
+          "city": "Tbilisi",
+          "address": "2 Station Square, Tbilisi, 0100, Georgia",
+          "phone": "+995 32 224 09 09",
+          "workingHours": "Mon-Fri 09:30-18:30; Sat 10:00-14:00"
+        }
+      ],
+      "routes": [
+        {
+          "fromCountryCode": "US",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 8.5,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://maleo.ge/?attr=tariffs&language=en&module=html"
+        },
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 7.0,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://maleo.ge/?attr=tariffs&language=en&module=html"
+        },
+        {
+          "fromCountryCode": "TR",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": 3.0,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://maleo.ge/?attr=tariffs&language=en&module=html"
+        },
+        {
+          "fromCountryCode": "GB",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 7.5,
+          "currency": "GBP",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Route/service should be verified from official website.",
+          "sourceUrl": "https://maleo.ge/?attr=tariffs&language=en&module=html"
+        }
+      ]
+    },
+    {
+      "name": "Inex Group",
+      "website": "https://inex.ge",
+      "phone": "+995 32 249 26 26",
+      "email": "info@inex.ge",
+      "facebook": "",
+      "verifiedStatus": "PARTIAL",
+      "note": "Inex official offices page lists call center, email and multiple offices/agent offices. Only a subset of offices is included here; verify complete list from official offices page.",
+      "branches": [
+        {
+          "title": "Inex Group Terminal",
+          "city": "Tbilisi",
+          "address": "Ivane Iumashevi N23",
+          "phone": "032 249 26 26",
+          "workingHours": "Mon-Fri 10:00-18:00"
+        },
+        {
+          "title": "Hualing Plaza",
+          "city": "Tbilisi",
+          "address": "22 J. Lezhava St.",
+          "phone": "032 249 26 26",
+          "workingHours": "09:00-22:00"
+        },
+        {
+          "title": "Didi Digomi",
+          "city": "Tbilisi",
+          "address": "42 Mirian Mefe, Didi Digomi",
+          "phone": "032 249 26 26",
+          "workingHours": "09:00-22:30"
+        },
+        {
+          "title": "Vake-Saburtalo",
+          "city": "Tbilisi",
+          "address": "N10 M. Tamarashvili Ave.",
+          "phone": "032 249 26 26",
+          "workingHours": "09:00-22:30"
+        },
+        {
+          "title": "Chokhatauri",
+          "city": "Chokhatauri",
+          "address": "Rustaveli Street No. 4a",
+          "phone": "599 52 52 84",
+          "workingHours": "10:00-18:00; Friday closed"
+        },
+        {
+          "title": "Chkhorotsku",
+          "city": "Chkhorotsku",
+          "address": "Gobechia str. 4, grocery store near the traffic light",
+          "phone": "571 23 22 98",
+          "workingHours": "10:00-18:00; Sunday closed"
+        }
+      ],
+      "routes": [
+        {
+          "fromCountryCode": "US",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 8.5,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Verify current tariff from official website.",
+          "sourceUrl": "https://inex.ge"
+        },
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 7.0,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Verify current tariff from official website.",
+          "sourceUrl": "https://inex.ge"
+        },
+        {
+          "fromCountryCode": "TR",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": 3.0,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Verify current tariff from official website.",
+          "sourceUrl": "https://inex.ge"
+        },
+        {
+          "fromCountryCode": "DE",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 6.5,
+          "currency": "EUR",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Verify current tariff from official website.",
+          "sourceUrl": "https://inex.ge"
+        },
+        {
+          "fromCountryCode": "GB",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 7.5,
+          "currency": "GBP",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Verify current tariff from official website.",
+          "sourceUrl": "https://inex.ge"
+        },
+        {
+          "fromCountryCode": "AE",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 7.5,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Verify current tariff from official website.",
+          "sourceUrl": "https://inex.ge"
+        }
+      ]
+    },
+    {
+      "name": "GeoGroup",
+      "website": "",
+      "phone": "",
+      "email": "",
+      "facebook": "",
+      "verifiedStatus": "UNVERIFIED",
+      "note": "Company website and contact details need verification. If this is actually GioGroup, use GioGroup entry.",
+      "branches": [],
+      "routes": [
+        {
+          "fromCountryCode": "TR",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": null,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Partial",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Route needs verification.",
+          "sourceUrl": ""
+        }
+      ]
+    },
+    {
+      "name": "Force Express",
+      "website": "https://forceexpress.ge",
+      "phone": "",
+      "email": "",
+      "facebook": "",
+      "verifiedStatus": "UNVERIFIED",
+      "note": "Reliable contact/branch information was not found in the current search. Website, routes and prices need verification.",
+      "branches": [],
+      "routes": [
+        {
+          "fromCountryCode": "US",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": null,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Partial",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price and route need verification.",
+          "sourceUrl": "https://forceexpress.ge"
+        }
+      ]
+    },
+    {
+      "name": "Camex",
+      "website": "https://camex.ge/?lang=en&module=contact",
+      "phone": "032 244 4888",
+      "email": "info@camex.ge",
+      "facebook": "",
+      "verifiedStatus": "PARTIAL",
+      "note": "Camex contact page lists multiple branches. Only visible branches from the current official contact page snapshot are included.",
+      "branches": [
+        {
+          "title": "Kazbegi branch",
+          "city": "Tbilisi",
+          "address": "#24 Kazbegi street",
+          "phone": "032 244 4888",
+          "workingHours": "Mon-Fri 10:00-21:00; Sat 11:00-16:00"
+        },
+        {
+          "title": "Chavchavadze branch",
+          "city": "Tbilisi",
+          "address": "#50b Chavchavadze Ave.",
+          "phone": "032 244 4888 Ext. #104",
+          "workingHours": "Mon-Fri 10:00-21:00; Sat 11:00-16:00"
+        },
+        {
+          "title": "Kakheti Lane branch",
+          "city": "Tbilisi",
+          "address": "Kakheti Lane #4",
+          "phone": "032 244 4888 Ext. #106",
+          "workingHours": "Mon-Fri 10:00-21:00; Sat 11:00-16:00"
+        },
+        {
+          "title": "Dighomi branch",
+          "city": "Tbilisi",
+          "address": "Dighomi Massive, Block VI, Building 20",
+          "phone": "032 244 4888 Ext. #201",
+          "workingHours": "Mon-Fri 10:00-21:00; Sat 11:00-16:00"
+        },
+        {
+          "title": "Gldani branch",
+          "city": "Tbilisi",
+          "address": "Gldani, Angia Bochorishvili 17",
+          "phone": "032 244 4888 Ext. #301",
+          "workingHours": "Mon-Fri 10:00-21:00; Sat 11:00-16:00"
+        },
+        {
+          "title": "Batumi branch",
+          "city": "Batumi",
+          "address": "#150 Farnavaz Mefe str.",
+          "phone": "032 244 4888 Ext. #401; 599 09 88 85",
+          "workingHours": "Mon-Fri 11:00-18:30; Sat 12:00-16:00"
+        }
+      ],
+      "routes": [
+        {
+          "fromCountryCode": "US",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 8.5,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "5-8 days",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://camex.ge"
+        },
+        {
+          "fromCountryCode": "DE",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 6.5,
+          "currency": "EUR",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://camex.ge"
+        },
+        {
+          "fromCountryCode": "TR",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": 3.0,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://camex.ge"
+        },
+        {
+          "fromCountryCode": "GR",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 6.0,
+          "currency": "EUR",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://camex.ge"
+        },
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 7.0,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://camex.ge"
+        },
+        {
+          "fromCountryCode": "GB",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 7.5,
+          "currency": "GBP",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://camex.ge"
+        }
+      ]
+    },
+    {
+      "name": "Onex",
+      "website": "https://www.onex.ge",
+      "phone": "+995 32 200 44 00",
+      "email": "contact@onex.ge",
+      "facebook": "https://www.facebook.com/www.onex.ge",
+      "verifiedStatus": "PARTIAL",
+      "note": "Main branch data is from public directory listings. Verify all branches from the official website before final publication.",
+      "branches": [
+        {
+          "title": "Kazbegi branch",
+          "city": "Tbilisi",
+          "address": "19B Aleksandre Kazbegi Ave, Tbilisi",
+          "phone": "+995 32 200 44 00",
+          "workingHours": "Mon-Fri 09:00-21:00; Sat-Sun 10:00-18:00"
+        },
+        {
+          "title": "Daraselia branch",
+          "city": "Tbilisi",
+          "address": "Daraselia St. 1, Tbilisi",
+          "phone": "+995 32 247 11 75",
+          "workingHours": "Check website"
+        }
+      ],
+      "routes": [
+        {
+          "fromCountryCode": "US",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 8.5,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://www.onex.ge"
+        },
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 7.0,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://www.onex.ge"
+        },
+        {
+          "fromCountryCode": "TR",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": 3.0,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://www.onex.ge"
+        },
+        {
+          "fromCountryCode": "GB",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 7.5,
+          "currency": "GBP",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://www.onex.ge"
+        }
+      ]
+    },
+    {
+      "name": "Amanati.ge",
+      "website": "https://amanati.ge",
+      "phone": "+995 32 242 47 37",
+      "email": "info@amanati.ge",
+      "facebook": "",
+      "verifiedStatus": "VERIFIED",
+      "note": "Official contact page lists branches, phone, emails and working hours. Customs-related email: contact@amanati.ge.",
+      "branches": [
+        {
+          "title": "Bochorma branch",
+          "city": "Tbilisi",
+          "address": "Bochorma St. 8, 300 Aragveli",
+          "phone": "+995 32 242 47 37",
+          "workingHours": "Mon-Fri 09:00-21:00; Sat 10:00-17:00; Sun closed"
+        },
+        {
+          "title": "Gldani Plaza branch",
+          "city": "Tbilisi",
+          "address": "I. Vekua St. 14, Gldani Plaza",
+          "phone": "+995 32 242 47 37",
+          "workingHours": "Mon-Fri 09:00-21:00; Sat 10:00-17:00; Sun closed"
+        },
+        {
+          "title": "Dighomi branch",
+          "city": "Tbilisi",
+          "address": "A. Beliashvili St. 117, Dighomi",
+          "phone": "+995 32 242 47 37",
+          "workingHours": "Mon-Fri 09:00-21:00; Sat 10:00-17:00; Sun closed"
+        },
+        {
+          "title": "Varketili branch",
+          "city": "Tbilisi",
+          "address": "M. Gakhokidze St. 167, Varketili",
+          "phone": "+995 32 242 47 37",
+          "workingHours": "Mon-Fri 09:00-21:00; Sat 10:00-17:00; Sun closed"
+        },
+        {
+          "title": "Saburtalo + Drive branch",
+          "city": "Tbilisi",
+          "address": "Vazha-Pshavela Ave. 35b, Saburtalo",
+          "phone": "+995 32 242 47 37",
+          "workingHours": "Mon-Fri 09:00-21:00; Sat 10:00-17:00; Sun closed"
+        }
+      ],
+      "routes": [
+        {
+          "fromCountryCode": "US",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 8.5,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://amanati.ge"
+        },
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 7.0,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://amanati.ge"
+        },
+        {
+          "fromCountryCode": "GR",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 6.0,
+          "currency": "EUR",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://amanati.ge"
+        }
+      ]
+    },
+    {
+      "name": "Amanatebi.ge",
+      "website": "https://amanatebi.ge",
+      "phone": "",
+      "email": "",
+      "facebook": "",
+      "verifiedStatus": "UNVERIFIED",
+      "note": "Reliable contact/branch information was not found in the current search. Website, routes and prices need verification.",
+      "branches": [],
+      "routes": [
+        {
+          "fromCountryCode": "TR",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": null,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Partial",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Route needs verification.",
+          "sourceUrl": "https://amanatebi.ge"
+        }
+      ]
+    },
+    {
+      "name": "Getit.ge",
+      "website": "https://getit.ge",
+      "phone": "+995 32 225 13 51",
+      "email": "info@getit.ge",
+      "facebook": "",
+      "verifiedStatus": "PARTIAL",
+      "note": "Official website lists USA, UAE, UK, China and Turkey service addresses. Gori branch working hours are listed, but branch address should be verified.",
+      "branches": [
+        {
+          "title": "Head Office",
+          "city": "Tbilisi",
+          "address": "#23 Nutsubidze str",
+          "phone": "+995 32 225 13 51",
+          "workingHours": "Mon-Fri 11:00-19:00; Sat 11:00-14:00; Sun closed"
+        }
+      ],
+      "routes": [
+        {
+          "fromCountryCode": "US",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 8.5,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "5-8 days",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://getit.ge"
+        },
+        {
+          "fromCountryCode": "GB",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 7.5,
+          "currency": "GBP",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://getit.ge"
+        },
+        {
+          "fromCountryCode": "TR",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": 3.0,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://getit.ge"
+        },
+        {
+          "fromCountryCode": "AE",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 7.5,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://getit.ge"
+        },
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 7.0,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://getit.ge"
+        }
+      ]
+    },
+    {
+      "name": "KiwiPost",
+      "website": "https://kiwipost.ge",
+      "phone": "+995 32 205 23 24",
+      "email": "",
+      "facebook": "",
+      "verifiedStatus": "PARTIAL",
+      "note": "Official website lists more than 100 pickup/service locations, but exact branch addresses are not included in the current source snapshot. Keep branches empty until verified.",
+      "branches": [],
+      "routes": [
+        {
+          "fromCountryCode": "US",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 10.0,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "4-7 days",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official public page lists USA rate and period.",
+          "sourceUrl": "https://kiwipost.ge"
+        },
+        {
+          "fromCountryCode": "GB",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 8.0,
+          "currency": "GBP",
+          "priceUnit": "perKg",
+          "deliveryDays": "4-7 days",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official public page lists England rate and period.",
+          "sourceUrl": "https://kiwipost.ge"
+        },
+        {
+          "fromCountryCode": "TR",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": 4.0,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "4-6 days",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official public page lists Turkey rate and period.",
+          "sourceUrl": "https://kiwipost.ge"
+        },
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 14.0,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "7-10 days",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official public page lists China rate and period.",
+          "sourceUrl": "https://kiwipost.ge"
+        },
+        {
+          "fromCountryCode": "GR",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 4.0,
+          "currency": "EUR",
+          "priceUnit": "perKg",
+          "deliveryDays": "5-7 days",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official public page lists Greece rate and period.",
+          "sourceUrl": "https://kiwipost.ge"
+        },
+        {
+          "fromCountryCode": "PL",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 6.0,
+          "currency": "EUR",
+          "priceUnit": "perKg",
+          "deliveryDays": "6-7 days",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official public page lists Poland rate and period.",
+          "sourceUrl": "https://kiwipost.ge"
+        },
+        {
+          "fromCountryCode": "ES",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 8.0,
+          "currency": "EUR",
+          "priceUnit": "perKg",
+          "deliveryDays": "4-7 days",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official public page lists Spain rate and period.",
+          "sourceUrl": "https://kiwipost.ge"
+        }
+      ]
+    },
+    {
+      "name": "Barami",
+      "website": "https://www.barami.us",
+      "phone": "2 00 22 33",
+      "email": "",
+      "facebook": "",
+      "verifiedStatus": "VERIFIED",
+      "note": "Official Barami locations page lists multiple Georgia service points. Only selected Georgia locations are included here.",
+      "branches": [
+        {
+          "title": "Store Tbilisi - Saburtalo",
+          "city": "Tbilisi",
+          "address": "16 Kandelaki St.",
+          "phone": "599 444 340",
+          "workingHours": "Tue-Sun 10:00-18:00; Mon closed"
+        },
+        {
+          "title": "Store Tbilisi - Tsinamdzghvrishvili",
+          "city": "Tbilisi",
+          "address": "158 Tsinamdzgvrishvili St.",
+          "phone": "032 2 00 22 33",
+          "workingHours": "24h"
+        },
+        {
+          "title": "Store Tbilisi Varketili",
+          "city": "Tbilisi",
+          "address": "3 MKR-4, BLD-413",
+          "phone": "555 441 188",
+          "workingHours": "Mon-Fri 11:00-20:00; Sat-Sun closed"
+        },
+        {
+          "title": "WHS Phonitchala",
+          "city": "Tbilisi",
+          "address": "5 Tsotne Dadiani I Turn.",
+          "phone": "032 2 00 22 33",
+          "workingHours": "Mon-Fri 10:00-18:00; Sat-Sun closed"
+        },
+        {
+          "title": "Store Akhmeta",
+          "city": "Akhmeta",
+          "address": "36-a Vazha Phshavela St.",
+          "phone": "597 071 917",
+          "workingHours": "Mon-Sun 10:00-18:00"
+        },
+        {
+          "title": "Store Telavi",
+          "city": "Telavi",
+          "address": "2 Giorgi Saakadze Square",
+          "phone": "+995 598 24 51 24",
+          "workingHours": "Mon-Fri 10:00-18:00; Sat-Sun closed"
+        },
+        {
+          "title": "Store Zugdidi",
+          "city": "Zugdidi",
+          "address": "Vakhtang VI - N25",
+          "phone": "+995 593 577 893",
+          "workingHours": "Mon-Sun 10:00-18:00"
+        },
+        {
+          "title": "WHS Poti",
+          "city": "Poti",
+          "address": "3 Larnaka St.",
+          "phone": "+995 595 657 001",
+          "workingHours": "Mon-Fri 10:00-18:00; Sat-Sun closed"
+        }
+      ],
+      "routes": [
+        {
+          "fromCountryCode": "US",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 8.5,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://www.barami.us"
+        }
+      ]
+    },
+    {
+      "name": "SpaceCargo",
+      "website": "https://www.spacecargo.ge",
+      "phone": "+995 32 212 09 90",
+      "email": "customerservice@spacecargo.ge",
+      "facebook": "",
+      "verifiedStatus": "PARTIAL",
+      "note": "Official/old contact page lists Tbilisi, Kutaisi and Batumi locations. Route prices should be verified from the official calculator/tariff page.",
+      "branches": [
+        {
+          "title": "Tbilisi branch",
+          "city": "Tbilisi",
+          "address": "Al. Kazbegi Ave. N30a / corner of K. Kutateladze street",
+          "phone": "+995 32 212 09 90",
+          "workingHours": "Mon-Fri 10:00-21:00; Sat 11:00-17:00"
+        },
+        {
+          "title": "Kutaisi branch",
+          "city": "Kutaisi",
+          "address": "Tsereteli St. 124",
+          "phone": "+995 32 212 09 90",
+          "workingHours": "Check website"
+        },
+        {
+          "title": "Batumi branch",
+          "city": "Batumi",
+          "address": "Zubalashvili 20",
+          "phone": "+995 32 212 09 90",
+          "workingHours": "Check website"
+        }
+      ],
+      "routes": [
+        {
+          "fromCountryCode": "US",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 8.85,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Public sources list USA service; verify official tariff.",
+          "sourceUrl": "https://www.spacecargo.ge"
+        },
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 12.85,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Public sources list China service; verify official tariff.",
+          "sourceUrl": "https://www.spacecargo.ge"
+        },
+        {
+          "fromCountryCode": "AE",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 7.0,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Public sources list Dubai/UAE service; verify official tariff.",
+          "sourceUrl": "https://www.spacecargo.ge"
+        },
+        {
+          "fromCountryCode": "GB",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 9.0,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Public sources list UK service; verify official tariff.",
+          "sourceUrl": "https://www.spacecargo.ge"
+        },
+        {
+          "fromCountryCode": "TR",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": 1.5,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Public sources list Turkey service; verify official tariff.",
+          "sourceUrl": "https://www.spacecargo.ge"
+        },
+        {
+          "fromCountryCode": "GR",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 3.5,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Public sources list Greece service; verify official tariff.",
+          "sourceUrl": "https://www.spacecargo.ge"
+        },
+        {
+          "fromCountryCode": "HK",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 9.0,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Partial",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "SpaceCargo public pages mention Hong Kong; verify official tariff.",
+          "sourceUrl": "https://www.spacecargo.ge"
+        }
+      ]
+    },
+    {
+      "name": "Bestex",
+      "website": "https://www.bestex.ge",
+      "phone": "+995 321 921 29; +995 595 168 080",
+      "email": "bestex.ge@gmail.com",
+      "facebook": "",
+      "verifiedStatus": "PARTIAL",
+      "note": "Contact and branch data is from public directory listing. Official website should be checked before final publication.",
+      "branches": [
+        {
+          "title": "Vazha-Pshavela branch",
+          "city": "Tbilisi",
+          "address": "Vazha-Pshavela Ave. 71b, Tbilisi",
+          "phone": "+995 321 921 29; +995 595 168 080",
+          "workingHours": "Mon-Fri 11:00-19:00; Sat 11:00-15:00"
+        }
+      ],
+      "routes": [
+        {
+          "fromCountryCode": "US",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": null,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Partial",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Bestex is listed as package forwarding from USA; price needs verification.",
+          "sourceUrl": "https://www.bestex.ge"
+        }
+      ]
+    },
+    {
+      "name": "GioGroup",
+      "website": "https://giogroup.ge",
+      "phone": "032 202 22 28",
+      "email": "giogroupservice1@gmail.com",
+      "facebook": "",
+      "verifiedStatus": "VERIFIED",
+      "note": "Official contact page lists four branches, email and phone.",
+      "branches": [
+        {
+          "title": "Varketili branch",
+          "city": "Tbilisi",
+          "address": "Viktor Kupradze St. 72, Varketili",
+          "phone": "032 202 22 28",
+          "workingHours": "Check website"
+        },
+        {
+          "title": "Gldani branch",
+          "city": "Tbilisi",
+          "address": "Angia Bochorishvili St. 33a, Gldani",
+          "phone": "032 202 22 28",
+          "workingHours": "Check website"
+        },
+        {
+          "title": "Kutaisi branch",
+          "city": "Kutaisi",
+          "address": "K. Gamsakhurdia N2, near clinic entrance",
+          "phone": "032 202 22 28",
+          "workingHours": "Check website"
+        },
+        {
+          "title": "Batumi branch",
+          "city": "Batumi",
+          "address": "Stepane Zubalashvili St. 20",
+          "phone": "032 202 22 28",
+          "workingHours": "Check website"
+        }
+      ],
+      "routes": [
+        {
+          "fromCountryCode": "TR",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": 1.5,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Cheapest",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://giogroup.ge"
+        },
+        {
+          "fromCountryCode": "GR",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 6.0,
+          "currency": "EUR",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Price should be verified from official tariff page.",
+          "sourceUrl": "https://giogroup.ge"
+        },
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 6.8,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official page mentions commercial cargo from Turkey and China; exact parcel tariff should be verified.",
+          "sourceUrl": "https://giogroup.ge"
+        },
+        {
+          "fromCountryCode": "US",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 8.99,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Partial",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "USA route should be verified from official/current source.",
+          "sourceUrl": "https://giogroup.ge"
+        }
+      ]
+    },
+    {
+      "name": "TGL",
+      "website": "https://tgl.ge",
+      "phone": "",
+      "email": "",
+      "facebook": "",
+      "verifiedStatus": "UNVERIFIED",
+      "note": "Trans Georgian Logistics. Reliable contact/branch information was not found in the current search. Website, routes and prices need verification.",
+      "branches": [],
+      "routes": [
+        {
+          "fromCountryCode": "US",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": null,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Partial",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Route needs verification.",
+          "sourceUrl": "https://tgl.ge"
+        }
+      ]
+    },
+    {
+      "name": "Gepost",
+      "website": "https://www.gpost.ge",
+      "phone": "+995 32 224 09 09",
+      "email": "info@gpost.ge",
+      "facebook": "https://www.facebook.com/gpost.ge",
+      "verifiedStatus": "VERIFIED",
+      "note": "Georgian Post official contact page lists central address, call center, email and hours. Selected Tbilisi service centers are included from public directory/official references.",
+      "branches": [
+        {
+          "title": "Head office",
+          "city": "Tbilisi",
+          "address": "2 Station Square, Tbilisi 0100, Georgia",
+          "phone": "+995 32 224 09 09",
+          "workingHours": "Mon-Fri 09:30-18:30; Sat 10:00-14:00"
+        },
+        {
+          "title": "Tbilisi Service Center #0102",
+          "city": "Tbilisi",
+          "address": "2 Station Square, Tbilisi",
+          "phone": "224 09 09",
+          "workingHours": "Mon-Fri 09:00-19:00; Sat 10:00-16:00"
+        },
+        {
+          "title": "Tbilisi Service Center #0119",
+          "city": "Tbilisi",
+          "address": "10a Kedia St., Didube",
+          "phone": "224 09 09",
+          "workingHours": "Mon-Fri 09:00-19:00; Sat 10:00-16:00"
+        },
+        {
+          "title": "Tbilisi Service Center #0114",
+          "city": "Tbilisi",
+          "address": "4 Gorgasali St., Ortachala",
+          "phone": "224 09 09",
+          "workingHours": "Mon-Fri 09:00-19:00; Sat 10:00-16:00"
+        },
+        {
+          "title": "Tbilisi Service Center #0186",
+          "city": "Tbilisi",
+          "address": "71 Vazha-Pshavela Ave., Saburtalo",
+          "phone": "224 09 09",
+          "workingHours": "Mon-Fri 09:00-19:00; Sat 10:00-16:00"
+        },
+        {
+          "title": "Tbilisi Service Center #0179",
+          "city": "Tbilisi",
+          "address": "21 Chavchavadze Ave., Vake",
+          "phone": "224 09 09",
+          "workingHours": "Mon-Fri 09:00-19:00; Sat 10:00-16:00"
+        }
+      ],
+      "routes": [
+        {
+          "fromCountryCode": "US",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": null,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Partial",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Georgian Post is postal/courier service, not a standard shopping forwarder. Use official calculator for pricing.",
+          "sourceUrl": "https://www.gpost.ge"
+        }
+      ]
+    },
+    {
+      "name": "Wejet.ge",
+      "website": "https://wejet.ge",
+      "phone": "032 280 04 44",
+      "email": "info@wejet.ge",
+      "facebook": "https://www.facebook.com/wejet.ge",
+      "verifiedStatus": "VERIFIED",
+      "note": "Official site lists China, Turkey, India, USA calculator and about page lists China, Turkey, Greece, India and USA services. Branches are listed for Tbilisi and Batumi.",
+      "branches": [
+        {
+          "title": "Saburtalo branch",
+          "city": "Tbilisi",
+          "address": "Shalva Nutsubidze St. 111",
+          "phone": "032 280 04 44",
+          "workingHours": "Mon-Fri 10:00-20:00; Sat 10:00-15:00"
+        },
+        {
+          "title": "Gldani branch",
+          "city": "Tbilisi",
+          "address": "M. Nozadze St. 38",
+          "phone": "032 280 04 44",
+          "workingHours": "Mon-Fri 10:00-20:00; Sat 10:00-15:00"
+        },
+        {
+          "title": "Batumi branch",
+          "city": "Batumi",
+          "address": "G. Brtskinvale St. 126",
+          "phone": "032 280 04 44",
+          "workingHours": "Mon-Fri 11:00-19:00; Sat 11:00-15:00"
+        }
+      ],
+      "routes": [
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 7.0,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official site has China calculator; exact current tariff should be verified.",
+          "sourceUrl": "https://wejet.ge"
+        },
+        {
+          "fromCountryCode": "TR",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": 3.0,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official site has Turkey calculator; exact current tariff should be verified.",
+          "sourceUrl": "https://wejet.ge"
+        },
+        {
+          "fromCountryCode": "IN",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 7.5,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official site has India calculator; exact current tariff should be verified.",
+          "sourceUrl": "https://wejet.ge"
+        },
+        {
+          "fromCountryCode": "US",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 8.5,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official site has USA calculator; exact current tariff should be verified.",
+          "sourceUrl": "https://wejet.ge"
+        },
+        {
+          "fromCountryCode": "GR",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 6.0,
+          "currency": "EUR",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "About page mentions Greece service; exact tariff should be verified.",
+          "sourceUrl": "https://wejet.ge/about"
+        }
+      ]
+    },
+    {
+      "name": "Global Post",
+      "website": "https://globalpost.ge",
+      "phone": "+995 32 239 04 14",
+      "email": "",
+      "facebook": "",
+      "verifiedStatus": "PARTIAL",
+      "note": "Official website is reachable and lists tariff sections, but reliable branch/contact details are limited in current search. Phone is from a public logistics directory and should be verified.",
+      "branches": [],
+      "routes": [
+        {
+          "fromCountryCode": "US",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": null,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Partial",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Route and price need verification from official tariff pages.",
+          "sourceUrl": "https://globalpost.ge"
+        },
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": null,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Partial",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official site has China/land tariff section; exact price needs verification.",
+          "sourceUrl": "https://globalpost.ge"
+        }
+      ]
+    },
+    {
+      "name": "Vipexpress Company",
+      "website": "https://www.vipexpress.ge",
+      "phone": "+995 593 335333",
+      "email": "vipexpress.g@gmail.com",
+      "facebook": "https://www.facebook.com/vipexpresscargo",
+      "verifiedStatus": "PARTIAL",
+      "note": "Official website lists China to Georgia cargo services by air, land and sea. Contact page lists multiple phone numbers. Address should be re-verified before final publication.",
+      "branches": [
+        {
+          "title": "Digomi branch",
+          "city": "Tbilisi",
+          "address": "Digomi Massive, Quarter 1, Building 14, Tbilisi",
+          "phone": "+995 593 33 53 33; +995 599 777 572",
+          "workingHours": "Mon-Fri 10:00-18:00"
+        }
+      ],
+      "routes": [
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 8.5,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "5-10 days",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official pricing page lists air transportation at about $8-9 per kg.",
+          "sourceUrl": "https://www.vipexpress.ge/pricing"
+        },
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": 1.2,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "12-14 days",
+          "badge": "Cheapest",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official pricing page lists land transportation at about $1-1.4 per kg.",
+          "sourceUrl": "https://www.vipexpress.ge/pricing"
+        },
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Sea",
+          "price": 0.42,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "30-45 days",
+          "badge": "Cheapest",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official pricing page lists sea transportation at about $0.4-0.42 per kg.",
+          "sourceUrl": "https://www.vipexpress.ge/pricing"
+        }
+      ]
+    },
+    {
+      "name": "Weisa Georgia",
+      "website": "https://www.weisagroup.com",
+      "phone": "+86 0311-67695285",
+      "email": "info@weisagroup.com",
+      "facebook": "",
+      "verifiedStatus": "UNVERIFIED",
+      "note": "Exact Georgian branch/company page was not verified. Public logistics sources identify WEISA / Weisa International Logistics Group as a China-based international logistics provider with air, sea and land freight services. Georgian service details should be confirmed before production use.",
+      "branches": [
+        {
+          "title": "China office",
+          "city": "Shenzhen",
+          "address": "Building E 505, Sakata International Center, Longgang District, Shenzhen, China",
+          "phone": "+86 0311-67695285",
+          "workingHours": "Check website"
+        }
+      ],
+      "routes": [
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": null,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Partial",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "China to Georgia service and current tariff need verification.",
+          "sourceUrl": "https://www.weisagroup.com"
+        },
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": null,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Partial",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "China to Georgia land/rail service and current tariff need verification.",
+          "sourceUrl": "https://www.weisagroup.com"
+        },
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Sea",
+          "price": null,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Partial",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "China to Georgia sea freight service and current tariff need verification.",
+          "sourceUrl": "https://www.weisagroup.com"
+        }
+      ]
+    }
+  ]
 }
