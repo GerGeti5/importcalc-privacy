@@ -1,6 +1,6 @@
 {
-  "dataVersion": 7,
-  "updatedAt": "2026-05-08",
+  "dataVersion": 8,
+  "updatedAt": "2026-07-07",
   "defaultToCountryCode": "GE",
   "currencyBase": "GEL",
   "notes": "Company contacts, branches, routes and prices are collected from official websites where available. PARTIAL/UNVERIFIED entries require re-checking before final publication. Empty contact/branch fields mean verified data was not found yet.",
