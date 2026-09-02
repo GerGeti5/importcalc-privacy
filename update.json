@@ -1,8 +1,8 @@
 {
-  "versionCode": 37,
-  "versionName": "2.6.5",
+  "versionCode": 38,
+  "versionName": "2.6.6",
   "updateUrl": "https://play.google.com/store/apps/details?id=com.importcalc.pro",
   "forceUpdate": false,
-  "shippingDataVersion": 8,
+  "shippingDataVersion": 9,
   "shippingDataUrl": "https://resplendent-beijinho-b33bb4.netlify.app/shipping_companies.json"
 }

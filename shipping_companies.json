@@ -1,6 +1,6 @@
 {
-  "dataVersion": 8,
-  "updatedAt": "2026-07-07",
+  "dataVersion": 9,
+  "updatedAt": "2026-09-02",
   "defaultToCountryCode": "GE",
   "currencyBase": "GEL",
   "notes": "Company contacts, branches, routes and prices are collected from official websites where available. PARTIAL/UNVERIFIED entries require re-checking before final publication. Empty contact/branch fields mean verified data was not found yet.",
@@ -1564,6 +1564,82 @@
           "customsIncluded": false,
           "note": "China to Georgia sea freight service and current tariff need verification.",
           "sourceUrl": "https://www.weisagroup.com"
+        }
+      ]
+    },
+    {
+      "name": "World Logistics",
+      "website": "https://www.worldlog.ge",
+      "phone": "+995 511 29 11 11",
+      "email": "info@worldlog.ge",
+      "facebook": "",
+      "verifiedStatus": "VERIFIED",
+      "note": "The official website confirms cargo transportation from China, Turkey and Europe to Georgia, including land, air and sea services. Public per-kilogram tariffs were not found; contact the company for a quote.",
+      "branches": [
+        {
+          "title": "Tbilisi office",
+          "city": "Tbilisi",
+          "address": "V. Dolidze St. 5a, Tbilisi",
+          "phone": "+995 511 29 11 11",
+          "workingHours": "Mon-Fri 10:00-18:00"
+        }
+      ],
+      "routes": [
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": null,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "About 20 days",
+          "badge": "Verified",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official website confirms China-to-Georgia ground cargo service. Request a current quote from the company.",
+          "sourceUrl": "https://www.worldlog.ge/en/"
+        },
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": null,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Verified",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official website confirms air cargo service. Request route availability and a current quote from the company.",
+          "sourceUrl": "https://www.worldlog.ge/en/"
+        },
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Sea",
+          "price": null,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Verified",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official website confirms sea cargo service. Request a current quote from the company.",
+          "sourceUrl": "https://www.worldlog.ge/en/"
+        },
+        {
+          "fromCountryCode": "TR",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": null,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Verified",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official website confirms ground cargo service from Turkey. Request a current quote from the company.",
+          "sourceUrl": "https://www.worldlog.ge/company/"
         }
       ]
     }
