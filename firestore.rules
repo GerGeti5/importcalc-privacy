@@ -1,0 +1,42 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Public catalogue used by the free app experience.
+    match /shipping_companies/{companyId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /shipping_routes/{routeId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /shipping_changes/{changeId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /shipping_metadata/{documentId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // Full price history is reserved for authenticated Premium users.
+    match /shipping_rate_history/{historyId} {
+      allow read: if request.auth != null && request.auth.token.premium == true;
+      allow write: if false;
+    }
+
+    // Each signed-in user can sync only their own notification state.
+    match /users/{userId}/shipping_state/{documentId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Collector execution logs are server-only.
+    match /shipping_update_runs/{runId} {
+      allow read, write: if false;
+    }
+  }
+}

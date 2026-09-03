@@ -1,9 +1,48 @@
 {
-  "dataVersion": 11,
+  "dataVersion": 12,
   "updatedAt": "2026-09-04",
   "defaultToCountryCode": "GE",
   "currencyBase": "GEL",
   "notes": "Company contacts, branches, routes and prices are collected from official websites where available. PARTIAL/UNVERIFIED entries require re-checking before final publication. Empty contact/branch fields mean verified data was not found yet.",
+  "changeVersion": 2,
+  "changeEvents": [
+    {
+      "id": "2026-09-04-new-companies",
+      "version": 1,
+      "changedAt": "2026-09-04T04:00:00+04:00",
+      "entityType": "company",
+      "entityId": "multiple",
+      "changeType": "added",
+      "title": {
+        "KA": "დაემატა 4 ახალი კომპანია",
+        "EN": "4 new companies added",
+        "RU": "Добавлены 4 новые компании"
+      },
+      "description": {
+        "KA": "Cargo AliGeorgia, Gzavnili.com, Cargia და FlyBox დაემატა მარშრუტებითა და საკონტაქტო ინფორმაციით.",
+        "EN": "Cargo AliGeorgia, Gzavnili.com, Cargia and FlyBox were added with routes and contact details.",
+        "RU": "Добавлены Cargo AliGeorgia, Gzavnili.com, Cargia и FlyBox с маршрутами и контактами."
+      }
+    },
+    {
+      "id": "2026-09-04-maleo-routes",
+      "version": 2,
+      "changedAt": "2026-09-04T04:30:00+04:00",
+      "entityType": "route",
+      "entityId": "maleo",
+      "changeType": "updated",
+      "title": {
+        "KA": "Maleo-ს მიმართულებები განახლდა",
+        "EN": "Maleo routes updated",
+        "RU": "Маршруты Maleo обновлены"
+      },
+      "description": {
+        "KA": "დაემატა ჩინეთის სახმელეთო სერვისი და განახლდა 9 ქვეყნის მიმდინარე ტარიფები და გადაზიდვის ტიპები.",
+        "EN": "China land service was added and current tariffs and shipping types were updated for 9 countries.",
+        "RU": "Добавлена наземная доставка из Китая и обновлены тарифы и типы доставки для 9 стран."
+      }
+    }
+  ],
   "companies": [
     {
       "name": "USA2GEORGIA",
