@@ -21,4 +21,11 @@ Firestore becomes the source for structured current data, change history, and Pr
 4. A new app version reads Firestore first and falls back to the cached/hosted JSON on any error.
 5. Enable authenticated Premium history only after billing and entitlement checks are ready.
 
-Firestore database creation is intentionally not included here because its region is permanent and must be confirmed first.
+## Provisioned database
+
+- Project: `importcalc`
+- Database: `(default)`
+- Mode/edition: Firestore Native, Standard
+- Region: `europe-west3` (Frankfurt)
+- Delete protection: enabled
+- Point-in-time recovery: disabled (the one-hour default version retention remains available)
