@@ -1,6 +1,6 @@
 {
-  "dataVersion": 9,
-  "updatedAt": "2026-09-02",
+  "dataVersion": 10,
+  "updatedAt": "2026-09-04",
   "defaultToCountryCode": "GE",
   "currencyBase": "GEL",
   "notes": "Company contacts, branches, routes and prices are collected from official websites where available. PARTIAL/UNVERIFIED entries require re-checking before final publication. Empty contact/branch fields mean verified data was not found yet.",
@@ -1564,6 +1564,310 @@
           "customsIncluded": false,
           "note": "China to Georgia sea freight service and current tariff need verification.",
           "sourceUrl": "https://www.weisagroup.com"
+        }
+      ]
+    },
+    {
+      "name": "Cargo AliGeorgia",
+      "website": "https://cag.ge",
+      "phone": "+995 555 032 000",
+      "email": "info@aligeorgia.ge",
+      "facebook": "",
+      "verifiedStatus": "VERIFIED",
+      "note": "The official website confirms worldwide commercial cargo transportation by air, land and sea. Public per-kilogram parcel tariffs are not offered; request an individual quote.",
+      "branches": [
+        {
+          "title": "Tbilisi office",
+          "city": "Tbilisi",
+          "address": "7 Dadiani Avenue, Karvasla Shopping Center, Office B503",
+          "phone": "+995 555 032 000",
+          "workingHours": "Check website"
+        }
+      ],
+      "routes": [
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": null,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Verified",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "The official site offers air import from any point worldwide. Request route availability and an individual quote.",
+          "sourceUrl": "https://cag.ge/en"
+        },
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": null,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Verified",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "The official site offers groupage cargo from Asia. Pricing is quoted by volume and cargo details, not as a public per-kilogram parcel tariff.",
+          "sourceUrl": "https://cag.ge/en"
+        },
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Sea",
+          "price": null,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Verified",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "The official site offers groupage and full-container sea freight. Request a current quote.",
+          "sourceUrl": "https://cag.ge/en"
+        }
+      ]
+    },
+    {
+      "name": "Gzavnili.com",
+      "website": "https://www.gzavnili.com",
+      "phone": "+995 32 247 00 22",
+      "email": "tbilisi@gzavnili.com",
+      "facebook": "",
+      "verifiedStatus": "VERIFIED",
+      "note": "The official USA service page confirms parcel forwarding from the United States to Georgia. The displayed price varies between $6.95 and $7 per kg depending on the service/conditions; $7 is used for comparison.",
+      "branches": [
+        {
+          "title": "Tbilisi office",
+          "city": "Tbilisi",
+          "address": "Check official website",
+          "phone": "+995 32 247 00 22",
+          "workingHours": "Mon-Fri 11:00-19:00; Sat-Sun 11:00-17:00"
+        },
+        {
+          "title": "New York office",
+          "city": "New York",
+          "address": "Check official website",
+          "phone": "+1 718 676 0022",
+          "workingHours": "Mon-Fri 09:00-19:00; Sat-Sun 10:00-17:00"
+        },
+        {
+          "title": "Delaware warehouse",
+          "city": "Wilmington",
+          "address": "Check official website",
+          "phone": "+1 718 676 0022",
+          "workingHours": "Check website"
+        }
+      ],
+      "routes": [
+        {
+          "fromCountryCode": "US",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 7.0,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "10-12 days for regular service",
+          "badge": "Verified",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official page advertises $6.95 or $7 per kg. Express service is marked temporarily suspended; regular service is used here.",
+          "sourceUrl": "https://usa.gzavnili.com/parcel-service.html"
+        }
+      ]
+    },
+    {
+      "name": "Cargia",
+      "website": "https://cargia.ge",
+      "phone": "+995 555 519 915",
+      "email": "info@cargia.ge",
+      "facebook": "",
+      "verifiedStatus": "PARTIAL",
+      "note": "Official terms confirm forwarding from the USA, China, Turkey and Greece. Current tariff values are loaded dynamically and were not reliably available from the public page, so no prices are asserted here.",
+      "branches": [
+        {
+          "title": "Tbilisi office",
+          "city": "Tbilisi",
+          "address": "38 Zedazeni Street, Tbilisi",
+          "phone": "+995 555 519 915",
+          "workingHours": "Check website"
+        }
+      ],
+      "routes": [
+        {
+          "fromCountryCode": "US",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": null,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Partial",
+          "supportsVolumetric": false,
+          "customsIncluded": false,
+          "note": "Official terms confirm the USA route and real-weight billing. Check the live calculator for the current tariff.",
+          "sourceUrl": "https://cargia.ge/terms-conditions"
+        },
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": null,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Partial",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official terms confirm the China route; billing may use actual or volumetric weight. Check the live calculator for the current tariff.",
+          "sourceUrl": "https://cargia.ge/terms-conditions"
+        },
+        {
+          "fromCountryCode": "TR",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": null,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Partial",
+          "supportsVolumetric": false,
+          "customsIncluded": false,
+          "note": "Official terms confirm the Turkey route and real-weight billing. Check the live calculator for the current tariff.",
+          "sourceUrl": "https://cargia.ge/terms-conditions"
+        },
+        {
+          "fromCountryCode": "GR",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": null,
+          "currency": "EUR",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check website",
+          "badge": "Partial",
+          "supportsVolumetric": false,
+          "customsIncluded": false,
+          "note": "Official terms confirm the Greece route and real-weight billing. Check the live calculator for the current tariff.",
+          "sourceUrl": "https://cargia.ge/terms-conditions"
+        }
+      ]
+    },
+    {
+      "name": "FlyBox",
+      "website": "https://flybox.ge",
+      "phone": "+995 32 360 66 06",
+      "email": "contact@flybox.ge",
+      "facebook": "",
+      "verifiedStatus": "VERIFIED",
+      "note": "Official website lists public per-kilogram tariffs for the USA, Greece, China, United Kingdom, Germany and Turkey. Final cost may vary when volumetric pricing applies.",
+      "branches": [
+        {
+          "title": "Tbilisi office",
+          "city": "Tbilisi",
+          "address": "28 Bakhtrioni Street, Tbilisi",
+          "phone": "+995 32 360 66 06",
+          "workingHours": "Mon-Fri 11:00-21:00; Sat 11:00-15:00; Sun closed"
+        }
+      ],
+      "routes": [
+        {
+          "fromCountryCode": "US",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 8.7,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "7-18 days standard",
+          "badge": "Verified",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official public tariff.",
+          "sourceUrl": "https://flybox.ge/ka"
+        },
+        {
+          "fromCountryCode": "GR",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": 3.0,
+          "currency": "EUR",
+          "priceUnit": "perKg",
+          "deliveryDays": "7-18 days standard",
+          "badge": "Verified",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official public tariff.",
+          "sourceUrl": "https://flybox.ge/ka"
+        },
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 10.5,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "7-18 days standard",
+          "badge": "Verified",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official public tariff.",
+          "sourceUrl": "https://flybox.ge/ka"
+        },
+        {
+          "fromCountryCode": "CN",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": 2.5,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "7-18 days standard",
+          "badge": "Verified",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official public tariff.",
+          "sourceUrl": "https://flybox.ge/ka"
+        },
+        {
+          "fromCountryCode": "GB",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 6.5,
+          "currency": "GBP",
+          "priceUnit": "perKg",
+          "deliveryDays": "7-18 days standard",
+          "badge": "Verified",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official public tariff.",
+          "sourceUrl": "https://flybox.ge/ka"
+        },
+        {
+          "fromCountryCode": "DE",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": 7.0,
+          "currency": "EUR",
+          "priceUnit": "perKg",
+          "deliveryDays": "7-18 days standard",
+          "badge": "Verified",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official public tariff.",
+          "sourceUrl": "https://flybox.ge/ka"
+        },
+        {
+          "fromCountryCode": "TR",
+          "toCountryCode": "GE",
+          "type": "Air",
+          "price": 3.25,
+          "currency": "USD",
+          "priceUnit": "perKg",
+          "deliveryDays": "7-18 days standard",
+          "badge": "Verified",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Official public tariff.",
+          "sourceUrl": "https://flybox.ge/ka"
         }
       ]
     },
