@@ -60,7 +60,7 @@
       "email": "info@maleo.ge",
       "facebook": "",
       "verifiedStatus": "PARTIAL",
-      "note": "Contact page lists LLC Georgian Post, Station Square 2, Tbilisi, call center and email. Service centers should be verified from the official service center list.",
+      "note": "Maleo's official tariff and flight-schedule pages list services from the USA, Greece, Turkey, Italy, Germany, Poland, the United Kingdom, France, and China. China has separate air and land services.",
       "branches": [
         {
           "title": "Main office / Georgian Post",
@@ -128,9 +128,65 @@
           "sourceUrl": "https://maleo.ge/?attr=tariffs&language=en&module=html"
         },
         {
+          "fromCountryCode": "GR",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": 3.0,
+          "currency": "EUR",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check schedule",
+          "badge": "Reliable",
+          "supportsVolumetric": false,
+          "customsIncluded": false,
+          "note": "Current tariff published on Maleo's official page; billing uses actual weight.",
+          "sourceUrl": "https://maleo.ge/?attr=tariffs&language=en&module=html"
+        },
+        {
+          "fromCountryCode": "IT",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": 4.0,
+          "currency": "EUR",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check schedule",
+          "badge": "Reliable",
+          "supportsVolumetric": false,
+          "customsIncluded": false,
+          "note": "Current tariff published on Maleo's official page; billing uses actual weight.",
+          "sourceUrl": "https://maleo.ge/?attr=tariffs&language=en&module=html"
+        },
+        {
+          "fromCountryCode": "DE",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": 8.0,
+          "currency": "EUR",
+          "priceUnit": "perKg",
+          "deliveryDays": "10 working days",
+          "badge": "Reliable",
+          "supportsVolumetric": false,
+          "customsIncluded": false,
+          "note": "Standard tariff published on Maleo's official page. A temporary promotional tariff may also be available; check the website before ordering.",
+          "sourceUrl": "https://maleo.ge/?attr=tariffs&language=en&module=html"
+        },
+        {
+          "fromCountryCode": "PL",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": 6.0,
+          "currency": "EUR",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check schedule",
+          "badge": "Reliable",
+          "supportsVolumetric": true,
+          "customsIncluded": false,
+          "note": "Current tariff published on Maleo's official page; the greater of actual and volumetric weight is charged.",
+          "sourceUrl": "https://maleo.ge/?attr=tariffs&language=en&module=html"
+        },
+        {
           "fromCountryCode": "GB",
           "toCountryCode": "GE",
-          "type": "Air",
+          "type": "Land",
           "price": 6.5,
           "currency": "GBP",
           "priceUnit": "perKg",
@@ -139,6 +195,20 @@
           "supportsVolumetric": true,
           "customsIncluded": false,
           "note": "Current tariff published on Maleo's official tariff page; the greater of actual and volumetric weight is charged.",
+          "sourceUrl": "https://maleo.ge/?attr=tariffs&language=en&module=html"
+        },
+        {
+          "fromCountryCode": "FR",
+          "toCountryCode": "GE",
+          "type": "Land",
+          "price": 5.5,
+          "currency": "EUR",
+          "priceUnit": "perKg",
+          "deliveryDays": "Check schedule",
+          "badge": "Reliable",
+          "supportsVolumetric": false,
+          "customsIncluded": false,
+          "note": "Current tariff published on Maleo's official page; billing uses actual weight.",
           "sourceUrl": "https://maleo.ge/?attr=tariffs&language=en&module=html"
         }
       ]
