@@ -54,6 +54,10 @@ function documentWrite(collection, id, data) {
   return { update: { name, fields: firestoreFields(data) } };
 }
 
+function documentDelete(name) {
+  return { delete: name };
+}
+
 async function getFirestoreClient() {
   const { auth, requireAuth, Client } = loadFirebaseAuth();
   const account = auth.getGlobalDefaultAccount();
@@ -89,14 +93,32 @@ async function countCollection(client, collection) {
   return count;
 }
 
+async function listCollectionDocumentNames(client, collection) {
+  let pageToken = "";
+  const names = [];
+  do {
+    const queryParams = { pageSize: 300 };
+    if (pageToken) queryParams.pageToken = pageToken;
+    const documentPath = `/projects/${PROJECT_ID}/databases/${DATABASE_ID}/documents/${collection}`;
+    const response = await client.get(documentPath, { queryParams });
+    const body = response.body;
+    names.push(...(body.documents || []).map((document) => document.name));
+    pageToken = body.nextPageToken || "";
+  } while (pageToken);
+  return names;
+}
+
 async function main() {
   const source = JSON.parse(fs.readFileSync(sourcePath, "utf8"));
   const capturedAt = new Date(`${source.updatedAt}T00:00:00+04:00`);
   const writes = [];
+  const currentCompanyNames = new Set();
+  const currentRouteNames = new Set();
   let routeCount = 0;
 
   for (const company of source.companies) {
     const companyId = slug(company.name);
+    currentCompanyNames.add(`projects/${PROJECT_ID}/databases/${DATABASE_ID}/documents/shipping_companies/${companyId}`);
     const { routes, ...companyProfile } = company;
     const currentCompany = {
       companyId,
@@ -115,6 +137,7 @@ async function main() {
 
     for (const route of routes) {
       const routeId = slug(`${company.name}-${route.fromCountryCode}-${route.toCountryCode}-${route.type}`);
+      currentRouteNames.add(`projects/${PROJECT_ID}/databases/${DATABASE_ID}/documents/shipping_routes/${routeId}`);
       const currentRoute = {
         routeId,
         companyId,
@@ -159,6 +182,15 @@ async function main() {
   const client = await getFirestoreClient();
   await batchWrite(client, writes);
 
+  const staleWrites = [];
+  for (const name of await listCollectionDocumentNames(client, "shipping_companies")) {
+    if (!currentCompanyNames.has(name)) staleWrites.push(documentDelete(name));
+  }
+  for (const name of await listCollectionDocumentNames(client, "shipping_routes")) {
+    if (!currentRouteNames.has(name)) staleWrites.push(documentDelete(name));
+  }
+  if (staleWrites.length) await batchWrite(client, staleWrites);
+
   const collections = [
     "shipping_companies",
     "shipping_routes",
@@ -170,7 +202,7 @@ async function main() {
   const counts = {};
   for (const collection of collections) counts[collection] = await countCollection(client, collection);
 
-  console.log(JSON.stringify({ project: PROJECT_ID, dataVersion: source.dataVersion, writes: writes.length, counts }, null, 2));
+  console.log(JSON.stringify({ project: PROJECT_ID, dataVersion: source.dataVersion, writes: writes.length, staleDocumentsDeleted: staleWrites.length, counts }, null, 2));
 }
 
 main().catch((error) => {
