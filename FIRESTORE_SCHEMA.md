@@ -8,6 +8,7 @@ Firestore becomes the source for structured current data, change history, and Pr
 - `shipping_companies/{companyId}`: name, website, logo, verification status, contacts, warehouses, and branch/address data.
 - `shipping_routes/{routeId}`: company, origin, destination, type, price, currency, delivery time, and source metadata.
 - `shipping_rate_history/{historyId}`: immutable route snapshots used for price charts and Premium history.
+- `shipping_company_history/{historyId}`: immutable company/contact/branch snapshots used to detect address and branch additions, removals, and edits.
 - `shipping_changes/{changeId}`: user-facing additions, removals, price changes, route changes, address changes, and branch changes.
 - `shipping_metadata/current`: public data and change versions plus the last successful refresh time.
 - `shipping_update_runs/{runId}`: private collector status and errors.
@@ -29,3 +30,17 @@ Firestore becomes the source for structured current data, change history, and Pr
 - Region: `europe-west3` (Frankfurt)
 - Delete protection: enabled
 - Point-in-time recovery: disabled (the one-hour default version retention remains available)
+
+## Initial migration
+
+Run `node scripts/migrate-to-firestore.js` from this repository after signing in with Firebase CLI.
+The migration is idempotent for a given `dataVersion`: stable document IDs update the current catalogue and avoid duplicate history snapshots.
+
+Data version 12 was migrated with:
+
+- 26 current company documents
+- 92 current route documents
+- 92 initial route/rate history snapshots
+- 26 initial company/contact/branch history snapshots
+- 2 user-facing change documents
+- 1 current metadata document

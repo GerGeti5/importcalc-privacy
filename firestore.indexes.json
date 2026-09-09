@@ -15,6 +15,14 @@
         { "fieldPath": "version", "order": "DESCENDING" },
         { "fieldPath": "changedAt", "order": "DESCENDING" }
       ]
+    },
+    {
+      "collectionGroup": "shipping_company_history",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "companyId", "order": "ASCENDING" },
+        { "fieldPath": "capturedAt", "order": "DESCENDING" }
+      ]
     }
   ],
   "fieldOverrides": []
