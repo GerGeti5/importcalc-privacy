@@ -1,10 +1,10 @@
 {
-  "dataVersion": 13,
+  "dataVersion": 14,
   "updatedAt": "2026-09-09",
   "defaultToCountryCode": "GE",
   "currencyBase": "GEL",
   "notes": "Company contacts, branches, routes and prices are collected from official websites where available. PARTIAL/UNVERIFIED entries require re-checking before final publication. Empty contact/branch fields mean verified data was not found yet.",
-  "changeVersion": 3,
+  "changeVersion": 4,
   "changeEvents": [
     {
       "id": "2026-09-04-new-companies",
@@ -58,6 +58,24 @@
         "KA": "ოფიციალური წყაროებით დაზუსტდა ქვეყნები, გადაზიდვის ტიპები და მიმდინარე ტარიფები; მათ შორის დაემატა GioGroup-ის ჩინეთის სახმელეთო მარშრუტი.",
         "EN": "Countries, shipping methods and current rates were verified from official sources, including GioGroup's China land route.",
         "RU": "Страны, способы доставки и текущие тарифы проверены по официальным источникам, включая наземный маршрут GioGroup из Китая."
+      }
+    },
+    {
+      "id": "2026-09-09-remove-unverified-geogroup",
+      "version": 4,
+      "changedAt": "2026-09-09T04:15:00+04:00",
+      "entityType": "company",
+      "entityId": "geogroup",
+      "changeType": "removed",
+      "title": {
+        "KA": "დუბლირებული GeoGroup ჩანაწერი გასუფთავდა",
+        "EN": "Duplicate GeoGroup entry removed",
+        "RU": "Удалена дублирующая запись GeoGroup"
+      },
+      "description": {
+        "KA": "დაუდასტურებელი GeoGroup ჩანაწერი წაიშალა; ოფიციალურად დადასტურებული კომპანია GioGroup ცალკე, სრულად განახლებული მონაცემებით რჩება.",
+        "EN": "The unverified GeoGroup entry was removed; the officially verified GioGroup remains with fully updated data.",
+        "RU": "Неподтвержденная запись GeoGroup удалена; официально проверенная GioGroup остается с обновленными данными."
       }
     }
   ],
@@ -552,32 +570,6 @@
           "customsIncluded": false,
           "note": "Verified from the company's official public tariff or service page on 2026-09-09.",
           "sourceUrl": "https://inex.ge/prices"
-        }
-      ]
-    },
-    {
-      "name": "GeoGroup",
-      "website": "",
-      "phone": "",
-      "email": "",
-      "facebook": "",
-      "verifiedStatus": "UNVERIFIED",
-      "note": "Company website and contact details need verification. If this is actually GioGroup, use GioGroup entry.",
-      "branches": [],
-      "routes": [
-        {
-          "fromCountryCode": "TR",
-          "toCountryCode": "GE",
-          "type": "Land",
-          "price": null,
-          "currency": "USD",
-          "priceUnit": "perKg",
-          "deliveryDays": "Check website",
-          "badge": "Partial",
-          "supportsVolumetric": true,
-          "customsIncluded": false,
-          "note": "Route needs verification.",
-          "sourceUrl": ""
         }
       ]
     },
