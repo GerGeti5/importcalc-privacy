@@ -1,10 +1,26 @@
 {
   "hosting": {
     "public": "public",
+    "predeploy": [
+      "node ../scripts/prepare-hosting.js"
+    ],
+    "cleanUrls": false,
+    "trailingSlash": false,
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "headers": [
+      {
+        "source": "**/*.html",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "text/html; charset=utf-8"
+          }
+        ]
+      }
     ]
   }
 }
