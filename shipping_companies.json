@@ -1,10 +1,10 @@
 {
-  "dataVersion": 15,
-  "updatedAt": "2026-09-09",
+  "dataVersion": 16,
+  "updatedAt": "2026-10-02",
   "defaultToCountryCode": "GE",
   "currencyBase": "GEL",
   "notes": "Company contacts, branches, routes and prices are collected from official websites where available. PARTIAL/UNVERIFIED entries require re-checking before final publication. Empty contact/branch fields mean verified data was not found yet.",
-  "changeVersion": 5,
+  "changeVersion": 6,
   "changeEvents": [
     {
       "id": "2026-09-04-new-companies",
@@ -94,6 +94,24 @@
         "KA": "ოფიციალური წყაროებით დაემატა ახალი გადამზიდები, მათი ქვეყნები, ტრანსპორტის ტიპები, ტარიფები და ფილიალები; GPost-ის სახმელეთო მიმართულებები სრულად გასწორდა.",
         "EN": "New forwarders, countries, shipping methods, rates and branches were added from official sources; GPost ground routes were corrected.",
         "RU": "По официальным источникам добавлены перевозчики, страны, способы доставки, тарифы и филиалы; наземные маршруты GPost исправлены."
+      }
+    },
+    {
+      "id": "2026-10-02-maleo-germany-promo",
+      "version": 6,
+      "changedAt": "2026-10-02T09:54:30+04:00",
+      "entityType": "route",
+      "entityId": "maleo-de-land",
+      "changeType": "updated",
+      "title": {
+        "KA": "Maleo-ს გერმანიის ტარიფი განახლდა",
+        "EN": "Maleo Germany rate updated",
+        "RU": "Обновлен тариф Maleo из Германии"
+      },
+      "description": {
+        "KA": "გერმანიიდან სახმელეთო გადაზიდვის მიმდინარე სააქციო ტარიფია 6 ევრო/კგ და მოქმედებს 2026 წლის 31 დეკემბრამდე.",
+        "EN": "The current promotional land-shipping rate from Germany is EUR 6/kg and is valid through December 31, 2026.",
+        "RU": "Текущий акционный тариф наземной доставки из Германии составляет 6 евро/кг и действует до 31 декабря 2026 года."
       }
     }
   ],
@@ -308,14 +326,14 @@
           "fromCountryCode": "DE",
           "toCountryCode": "GE",
           "type": "Land",
-          "price": 8,
+          "price": 6,
           "currency": "EUR",
           "priceUnit": "perKg",
           "deliveryDays": "10 working days",
           "badge": "Reliable",
           "supportsVolumetric": false,
           "customsIncluded": false,
-          "note": "Standard tariff published on Maleo's official page. A temporary promotional tariff may also be available; check the website before ordering.",
+          "note": "Promotional tariff published on Maleo's official page, valid from September 1 through December 31, 2026. The standard tariff is EUR 8/kg.",
           "sourceUrl": "https://maleo.ge/?attr=tariffs&language=en&module=html"
         },
         {
