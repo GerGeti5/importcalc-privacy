@@ -1,10 +1,10 @@
 {
-  "dataVersion": 16,
-  "updatedAt": "2026-10-02",
+  "dataVersion": 17,
+  "updatedAt": "2026-10-03",
   "defaultToCountryCode": "GE",
   "currencyBase": "GEL",
   "notes": "Company contacts, branches, routes and prices are collected from official websites where available. PARTIAL/UNVERIFIED entries require re-checking before final publication. Empty contact/branch fields mean verified data was not found yet.",
-  "changeVersion": 6,
+  "changeVersion": 7,
   "changeEvents": [
     {
       "id": "2026-09-04-new-companies",
@@ -112,6 +112,24 @@
         "KA": "გერმანიიდან სახმელეთო გადაზიდვის მიმდინარე სააქციო ტარიფია 6 ევრო/კგ და მოქმედებს 2026 წლის 31 დეკემბრამდე.",
         "EN": "The current promotional land-shipping rate from Germany is EUR 6/kg and is valid through December 31, 2026.",
         "RU": "Текущий акционный тариф наземной доставки из Германии составляет 6 евро/кг и действует до 31 декабря 2026 года."
+      }
+    },
+    {
+      "id": "2026-10-03-gzavnili-rate-branches",
+      "version": 7,
+      "changedAt": "2026-10-03T11:45:06+04:00",
+      "entityType": "company",
+      "entityId": "gzavnili-com",
+      "changeType": "updated",
+      "title": {
+        "KA": "Gzavnili.com-ის ტარიფი და ფილიალები განახლდა",
+        "EN": "Gzavnili.com rate and branches updated",
+        "RU": "Обновлены тариф и филиалы Gzavnili.com"
+      },
+      "description": {
+        "KA": "აშშ-დან საჰაერო გადაზიდვის ტარიფი განახლდა 9 დოლარამდე კილოგრამზე და დაემატა ოფიციალურად გამოქვეყნებული მისამართები თბილისში, ქუთაისში, ბათუმში, ფოთში, თელავში, ნიუ-იორკსა და დელავერში.",
+        "EN": "The USA air-shipping rate was updated to USD 9/kg, and official addresses were added for Tbilisi, Kutaisi, Batumi, Poti, Telavi, New York and Delaware.",
+        "RU": "Тариф авиадоставки из США обновлен до 9 долларов за кг; добавлены официальные адреса в Тбилиси, Кутаиси, Батуми, Поти, Телави, Нью-Йорке и Делавэре."
       }
     }
   ],
@@ -2389,28 +2407,56 @@
       "email": "tbilisi@gzavnili.com",
       "facebook": "",
       "verifiedStatus": "VERIFIED",
-      "note": "The official USA service page confirms parcel forwarding from the United States to Georgia. The displayed price varies between $6.95 and $7 per kg depending on the service/conditions; $7 is used for comparison.",
+      "note": "USA air-shipping rate, contact details and seven office or warehouse addresses verified from the official parcel-service page on 2026-10-03.",
       "branches": [
         {
           "title": "Tbilisi office",
           "city": "Tbilisi",
-          "address": "Check official website",
+          "address": "41 Tashkenti St, Tbilisi, Georgia",
           "phone": "+995 32 247 00 22",
           "workingHours": "Mon-Fri 11:00-19:00; Sat-Sun 11:00-17:00"
         },
         {
           "title": "New York office",
           "city": "New York",
-          "address": "Check official website",
+          "address": "1914 Kings Highway, 2 FL, Brooklyn, NY 11229, USA",
           "phone": "+1 718 676 0022",
           "workingHours": "Mon-Fri 09:00-19:00; Sat-Sun 10:00-17:00"
         },
         {
           "title": "Delaware warehouse",
           "city": "Wilmington",
-          "address": "Check official website",
-          "phone": "+1 718 676 0022",
-          "workingHours": "Check website"
+          "address": "3007 Rosemont Avenue, Wilmington, DE 19802, USA",
+          "phone": "+1 302 510 6956",
+          "workingHours": "Mon-Fri 09:00-18:00; Sat-Sun closed"
+        },
+        {
+          "title": "Kutaisi office",
+          "city": "Kutaisi",
+          "address": "55 Tsereteli St, Kutaisi, Georgia",
+          "phone": "+995 431 25 00 27",
+          "workingHours": "Mon-Fri 11:00-19:00; Sat-Sun closed"
+        },
+        {
+          "title": "Batumi office",
+          "city": "Batumi",
+          "address": "40 Z. Gorgiladze St, Batumi, Georgia",
+          "phone": "+995 422 22 32 75",
+          "workingHours": "Mon-Fri 11:00-19:00; Sat-Sun closed"
+        },
+        {
+          "title": "Poti office",
+          "city": "Poti",
+          "address": "6 9 Aprili St, Poti, Georgia",
+          "phone": "+995 493 24 24 25",
+          "workingHours": "Mon-Fri 11:00-19:00; Sat-Sun closed"
+        },
+        {
+          "title": "Telavi office",
+          "city": "Telavi",
+          "address": "2 Chavchavadze St, Telavi, Georgia",
+          "phone": "+995 350 22 32 75",
+          "workingHours": "Mon-Fri 11:00-19:00; Sat-Sun closed"
         }
       ],
       "routes": [
@@ -2418,14 +2464,14 @@
           "fromCountryCode": "US",
           "toCountryCode": "GE",
           "type": "Air",
-          "price": 7,
+          "price": 9,
           "currency": "USD",
           "priceUnit": "perKg",
           "deliveryDays": "10-12 days for regular service",
           "badge": "Verified",
           "supportsVolumetric": true,
           "customsIncluded": false,
-          "note": "Official page advertises $6.95 or $7 per kg. Express service is marked temporarily suspended; regular service is used here.",
+          "note": "Official parcel-service page advertises USD 9/kg on 2026-10-03. Regular-service delivery remains listed as 10-12 days; express availability is inconsistent on the page, so the regular service is used here.",
           "sourceUrl": "https://usa.gzavnili.com/parcel-service.html"
         }
       ]
