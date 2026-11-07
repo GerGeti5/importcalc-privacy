@@ -1,10 +1,10 @@
 {
-  "dataVersion": 17,
-  "updatedAt": "2026-10-03",
+  "dataVersion": 18,
+  "updatedAt": "2026-11-07",
   "defaultToCountryCode": "GE",
   "currencyBase": "GEL",
   "notes": "Company contacts, branches, routes and prices are collected from official websites where available. PARTIAL/UNVERIFIED entries require re-checking before final publication. Empty contact/branch fields mean verified data was not found yet.",
-  "changeVersion": 7,
+  "changeVersion": 8,
   "changeEvents": [
     {
       "id": "2026-09-04-new-companies",
@@ -130,6 +130,24 @@
         "KA": "აშშ-დან საჰაერო გადაზიდვის ტარიფი განახლდა 9 დოლარამდე კილოგრამზე და დაემატა ოფიციალურად გამოქვეყნებული მისამართები თბილისში, ქუთაისში, ბათუმში, ფოთში, თელავში, ნიუ-იორკსა და დელავერში.",
         "EN": "The USA air-shipping rate was updated to USD 9/kg, and official addresses were added for Tbilisi, Kutaisi, Batumi, Poti, Telavi, New York and Delaware.",
         "RU": "Тариф авиадоставки из США обновлен до 9 долларов за кг; добавлены официальные адреса в Тбилиси, Кутаиси, Батуми, Поти, Телави, Нью-Йорке и Делавэре."
+      }
+    },
+    {
+      "id": "2026-11-07-flybox-china-ground-rate",
+      "version": 8,
+      "changedAt": "2026-11-07T17:25:00+04:00",
+      "entityType": "route",
+      "entityId": "flybox-cn-ge-land",
+      "changeType": "updated",
+      "title": {
+        "KA": "FlyBox-ის ჩინეთის სახმელეთო ტარიფი განახლდა",
+        "EN": "FlyBox China ground tariff updated",
+        "RU": "Обновлён тариф FlyBox на наземную доставку из Китая"
+      },
+      "description": {
+        "KA": "FlyBox-ის ოფიციალურ საიტზე სტანდარტული ტარიფი $4.50/კგ გახდა; $2.50/კგ მოქმედებს, თუ ერთ რეისზე ამანათების ჯამური წონა 30 კგ-ზე მეტია.",
+        "EN": "FlyBox now lists a standard rate of $4.50/kg; $2.50/kg remains available when parcels on a single flight total more than 30 kg.",
+        "RU": "FlyBox указывает стандартный тариф $4.50/кг; тариф $2.50/кг сохраняется, если общий вес посылок на одном рейсе превышает 30 кг."
       }
     }
   ],
@@ -2616,14 +2634,14 @@
           "fromCountryCode": "CN",
           "toCountryCode": "GE",
           "type": "Land",
-          "price": 2.5,
+          "price": 4.5,
           "currency": "USD",
           "priceUnit": "perKg",
           "deliveryDays": "7-18 days standard",
           "badge": "Verified",
           "supportsVolumetric": true,
           "customsIncluded": false,
-          "note": "Official public tariff.",
+          "note": "The official website states that the China ground-shipping promotional rate of $2.50/kg has ended and the standard rate is now $4.50/kg. $2.50/kg still applies when parcels on a single flight total more than 30 kg. Verified 2026-11-07.",
           "sourceUrl": "https://flybox.ge/ka"
         },
         {
