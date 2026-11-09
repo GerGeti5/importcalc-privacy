@@ -1,10 +1,10 @@
 {
-  "dataVersion": 20,
-  "updatedAt": "2026-11-09",
+  "dataVersion": 21,
+  "updatedAt": "2026-11-10",
   "defaultToCountryCode": "GE",
   "currencyBase": "GEL",
   "notes": "Company contacts, branches, routes and prices are collected from official websites where available. PARTIAL/UNVERIFIED entries require re-checking before final publication. Empty contact/branch fields mean verified data was not found yet.",
-  "changeVersion": 10,
+  "changeVersion": 11,
   "changeEvents": [
     {
       "id": "2026-09-04-new-companies",
@@ -184,6 +184,24 @@
         "KA": "KiwiPost-ის ოფიციალურ ტარიფებში ჩინეთიდან სახმელეთო მიწოდების ვადა 35–50 დღედ არის მითითებული (ადრე 30–45 დღე). ტარიფი უცვლელია: $3.95/კგ.",
         "EN": "KiwiPost now lists 35–50 days for China land delivery, up from 30–45 days. The rate remains $3.95/kg.",
         "RU": "KiwiPost теперь указывает срок наземной доставки из Китая 35–50 дней вместо 30–45. Тариф остаётся $3.95/кг."
+      }
+    },
+    {
+      "id": "2026-11-10-worldlog-china-land-estimate",
+      "version": 11,
+      "changedAt": "2026-11-10T02:20:00+04:00",
+      "entityType": "route",
+      "entityId": "world-logistics-cn-ge-land",
+      "changeType": "updated",
+      "title": {
+        "KA": "World Logistics-ის ჩინეთის სახმელეთო ვადა დაზუსტდა",
+        "EN": "World Logistics China land estimate clarified",
+        "RU": "Уточнён срок наземной доставки World Logistics из Китая"
+      },
+      "description": {
+        "KA": "კომპანიის ოფიციალურ ჩინეთი–საქართველოს სახმელეთო სერვისის გვერდზე მიწოდების დრო 20–25 დღედ არის მითითებული; მანამდე ჩანაწერში დაახლოებით 20 დღე ეწერა. ტარიფი კვლავ შეთავაზებით ზუსტდება.",
+        "EN": "The company’s official China–Georgia land-service page lists transit as 20–25 days; the previous record said about 20 days. Pricing remains quote-based.",
+        "RU": "На официальной странице наземной доставки Китай–Грузия указан срок 20–25 дней; ранее было записано «около 20 дней». Стоимость по-прежнему уточняется по запросу."
       }
     }
   ],
@@ -2749,11 +2767,11 @@
           "price": null,
           "currency": "USD",
           "priceUnit": "perKg",
-          "deliveryDays": "About 20 days",
+          "deliveryDays": "20-25 days",
           "badge": "Verified",
           "supportsVolumetric": true,
           "customsIncluded": false,
-          "note": "Official website confirms China-to-Georgia ground cargo service. Request a current quote from the company.",
+          "note": "Official China–Georgia land-service page lists transit as 20/25 days; current price requires a quote.",
           "sourceUrl": "https://www.worldlog.ge/en/"
         },
         {
